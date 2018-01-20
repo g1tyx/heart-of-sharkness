@@ -2,7 +2,7 @@ SharkGame.Stats = {
 
     tabId: "stats",
     tabDiscovered: false,
-    tabName: "Grotto",
+    tabName: "岩洞",
     tabBg: "img/bg/bg-grotto.png",
 
     sceneImage: "img/events/misc/scene-grotto.png",
@@ -74,15 +74,15 @@ SharkGame.Stats = {
         genStats.append($('<h3>').html("General Stats"));
         var firstTime = SharkGame.Main.isFirstTime();
         if(!firstTime) {
-            genStats.append($('<p>').html("<span class='medDesc'>Climate Level</span><br>" + SharkGame.Main.beautify(SharkGame.World.planetLevel)));
+            genStats.append($('<p>').html("<span class='medDesc'>气候水平</span><br>" + SharkGame.Main.beautify(SharkGame.World.planetLevel)));
         }
-        genStats.append($('<p>').html("Time since you began:<br/><span id='gameTime' class='timeDisplay'></span>").addClass("medDesc"));
+        genStats.append($('<p>').html("自从你开始的时间:<br/><span id='gameTime' class='timeDisplay'></span>").addClass("medDesc"));
         if(!firstTime) {
-            genStats.append($('<p>').html("Time since you came through the gate:<br/><span id='runTime' class='timeDisplay'></span>").addClass("medDesc"));
+            genStats.append($('<p>').html("自你从大门进来的时间<br/><span id='runTime' class='timeDisplay'></span>").addClass("medDesc"));
         }
-        genStats.append($('<h3>').html("Total Ocean Resources Acquired"));
+        genStats.append($('<h3>').html("获得的海洋资源总量"));
         if(!firstTime) {
-            genStats.append($('<p>').html("Essence given is the total acquired for the entire game and not just for this world.").addClass("medDesc"));
+            genStats.append($('<p>').html("给定的基本要素是整个游戏所获得的总能力，而不仅仅是这个世界。").addClass("medDesc"));
         }
         genStats.append(s.createTotalAmountTable());
 

@@ -54,8 +54,8 @@ SharkGame.Settings = {
 
     offlineModeActive: {
         defaultSetting: true,
-        name: "Offline Mode",
-        desc: "Let your numbers increase even with the game closed!",
+        name: "离线模式",
+        desc: "游戏关闭时，你的数据仍然会增加!",
         show: true,
         options: [
             true,
@@ -79,7 +79,7 @@ SharkGame.Settings = {
         onChange: function() {
             clearInterval(SharkGame.Main.autosaveHandler);
             SharkGame.Main.autosaveHandler = setInterval(SharkGame.Main.autosave, SharkGame.Settings.current.autosaveFrequency * 60000);
-            SharkGame.Log.addMessage("Now autosaving every " + SharkGame.Settings.current.autosaveFrequency + " minute" + SharkGame.plural(SharkGame.Settings.current.autosaveFrequency) + ".");
+            SharkGame.Log.addMessage("每 " + SharkGame.Settings.current.autosaveFrequency + " 分钟会自动保存" + SharkGame.plural(SharkGame.Settings.current.autosaveFrequency) + ".");
         }
     },
 

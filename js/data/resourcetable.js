@@ -3,7 +3,7 @@ SharkGame.ResourceTable = {
     // SPECIAL
 
     numen: {
-        name: 'numina',
+        name: '力量',
         singleName: 'numen',
         //desc: "You think as a deity. You act as a deity. You are a deity.",
         color: '#FFFFFF',
@@ -11,7 +11,7 @@ SharkGame.ResourceTable = {
     },
 
     essence: {
-        name: 'essence',
+        name: '本质',
         singleName: 'essence',
         //desc: "Etheric force, raw and dangerous.",
         color: '#ACE3D1',
@@ -21,7 +21,7 @@ SharkGame.ResourceTable = {
     // FRENZY
 
     shark: {
-        name: 'sharks',
+        name: '鲨鱼',
         singleName: 'shark',
         //desc: "Apex predators of the seas.",
         color: '#92C1E0',
@@ -36,7 +36,7 @@ SharkGame.ResourceTable = {
     },
 
     ray: {
-        name: 'rays',
+        name: '光线',
         singleName: 'ray',
         //desc: "Kindred to the sharks.",
         color: '#797CFC',
@@ -52,7 +52,7 @@ SharkGame.ResourceTable = {
     },
 
     crab: {
-        name: 'crabs',
+        name: '螃蟹',
         singleName: 'crab',
         //desc: "Dutiful, loyal crustaceans.",
         color: '#9C2424',
@@ -68,7 +68,7 @@ SharkGame.ResourceTable = {
     },
 
     shrimp: {
-        name: 'shrimp',
+        name: '虾',
         singleName: 'shrimp',
         color: '#EF5D22',
         income: {
@@ -82,7 +82,7 @@ SharkGame.ResourceTable = {
     },
 
     lobster: {
-        name: 'lobsters',
+        name: '龙虾',
         singleName: 'lobster',
         color: '#BF0F00',
         income: {
@@ -97,7 +97,7 @@ SharkGame.ResourceTable = {
     },
 
     dolphin: {
-        name: 'dolphins',
+        name: '海豚',
         singleName: 'dolphin',
         color: '#C6BAC6',
         income: {
@@ -114,7 +114,7 @@ SharkGame.ResourceTable = {
     },
 
     whale: {
-        name: 'whales',
+        name: '鲸鱼',
         singleName: 'whale',
         color: '#37557C',
         income: {
@@ -127,7 +127,7 @@ SharkGame.ResourceTable = {
     },
 
     chimaera: {
-        name: 'chimaeras',
+        name: '银鲛',
         singleName: 'chimaera',
         color: '#7D77A5',
         income: {
@@ -142,7 +142,7 @@ SharkGame.ResourceTable = {
     },
 
     octopus: {
-        name: 'octopuses', // the word 'octopus' in english is taken from latin
+        name: '章鱼', // the word 'octopus' in english is taken from latin
         // which in turn took it from greek
         // when it was taken from greek and made into latin it kept the original plural
         // now the word is taken from latin and maybe we should take the original plural but
@@ -162,7 +162,7 @@ SharkGame.ResourceTable = {
     },
 
     eel: {
-        name: 'eels',
+        name: '鳗鱼',
         singleName: 'eel',
         color: '#718D68',
         income: {
@@ -180,7 +180,7 @@ SharkGame.ResourceTable = {
     // BREEDERS
 
     nurse: {
-        name: 'nurse sharks',
+        name: '护士鲨',
         singleName: 'nurse shark',
         //desc: "Safeguarding the future.",
         color: '#C978DE',
@@ -191,7 +191,7 @@ SharkGame.ResourceTable = {
     },
 
     maker: {
-        name: 'ray makers',
+        name: '射线制造者',
         singleName: 'ray maker',
         //desc: "Caretakers of the helpless.",
         color: '#5355ED',
@@ -202,7 +202,7 @@ SharkGame.ResourceTable = {
     },
 
     brood: {
-        name: 'crab broods',
+        name: '螃蟹巢',
         singleName: 'crab brood',
         //desc: "The unending process.",
         color: '#9E7272',
@@ -213,7 +213,7 @@ SharkGame.ResourceTable = {
     },
 
     queen: {
-        name: 'shrimp queens',
+        name: '虾皇后',
         singleName: 'shrimp queen',
         color: '#EEA271',
         income: {
@@ -224,7 +224,7 @@ SharkGame.ResourceTable = {
     },
 
     berrier: {
-        name: 'lobster berriers',
+        name: '龙虾浆果',
         singleName: 'lobster berrier',
         color: '#719188',
         income: {
@@ -234,7 +234,7 @@ SharkGame.ResourceTable = {
     },
 
     biologist: {
-        name: 'dolphin biologists',
+        name: '海豚生物学家',
         singleName: 'dolphin biologist',
         color: '#5C9976',
         income: {
@@ -244,7 +244,7 @@ SharkGame.ResourceTable = {
     },
 
     pit: {
-        name: 'eel pits',
+        name: '鳗鱼坑',
         singleName: 'eel pit',
         color: '#3F6E86',
         income: {
@@ -256,7 +256,7 @@ SharkGame.ResourceTable = {
     // SPECIALISTS
 
     scientist: {
-        name: 'science sharks',
+        name: '科学鲨鱼',
         singleName: 'science shark',
         //desc: "Creators of the shark future.",
         color: '#DCEBF5',
@@ -267,7 +267,7 @@ SharkGame.ResourceTable = {
     },
 
     diver: {
-        name: 'diver sharks',
+        name: '潜水员鲨鱼',
         singleName: 'diver shark',
         color: '#6A74AB',
         income: {
@@ -933,7 +933,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     science: {
-        name: "Science",
+        name: "科学",
         disposeMessage: [
             "Thousands of sharkhours of research down the drain.",
             "What possible reason are you doing this for?!",
@@ -947,7 +947,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     animals: {
-        name: "Animals",
+        name: "动物",
         disposeMessage: [
             "Go free, simple creatures!",
             "What does famine even mean, really?",

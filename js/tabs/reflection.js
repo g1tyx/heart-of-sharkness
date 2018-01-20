@@ -2,7 +2,7 @@ SharkGame.Reflection = {
 
     tabId: "reflection",
     tabDiscovered: false,
-    tabName: "Reflection",
+    tabName: "反射",
     tabBg: "img/bg/bg-gate.png",
 
     sceneImage: "img/events/misc/scene-reflection.png",
@@ -13,8 +13,8 @@ SharkGame.Reflection = {
         }
     },
 
-    message: "You may not remember everything, but you are something more than a shark now." +
-    "</br><span='medDesc'>Reflect upon the changes in yourself and reality you have made here.</span>",
+    message: "你可能不记得所有的事情，但你现在已经不仅仅是一只鲨鱼了。" +
+    "</br><span='medDesc'>反思你自己和你在这里所做的改变。</span>",
 
     init: function() {
         var r = SharkGame.Reflection;

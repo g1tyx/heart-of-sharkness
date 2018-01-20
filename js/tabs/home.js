@@ -2,7 +2,7 @@ SharkGame.Home = {
 
     tabId: "home",
     tabDiscovered: true,
-    tabName: "Home Sea",
+    tabName: "家",
     tabBg: "img/bg/bg-homesea.png",
 
     currentButtonTab: null,

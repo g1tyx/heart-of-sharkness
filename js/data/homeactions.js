@@ -3,7 +3,7 @@ SharkGame.HomeActions = {
     // FREEBIES ////////////////////////////////////////////////////////////////////////////////
 
     'catchFish': {
-        name: "Catch fish",
+        name: "抓鱼",
         effect: {
             resource: {
                 'fish': 1
@@ -14,51 +14,51 @@ SharkGame.HomeActions = {
             // no prereqs
         },
         outcomes: [
-            "Dropped the bass.",
-            "Ate a kipper. Wait. Hang on.",
-            "You eat a fish hooray!",
-            "Fish.",
-            "Ate a shark. Wait. No, it wasn't a shark.",
-            "Ate an anchovy.",
-            "Ate a catfish.",
-            "Ate a flounder.",
-            "Ate a haddock.",
-            "Ate a herring.",
-            "Ate a mackerel.",
-            "Ate a mullet.",
-            "Ate a perch.",
-            "Ate a pollock.",
-            "Ate a salmon.",
-            "Ate a sardine.",
-            "Ate a sole.",
-            "Ate a tilapia.",
-            "Ate a trout.",
-            "Ate a whitefish.",
-            "Ate a bass.",
-            "Ate a carp.",
-            "Ate a cod.",
-            "Ate a halibut.",
-            "Ate a mahi mahi.",
-            "Ate a monkfish.",
-            "Ate a perch.",
-            "Ate a snapper.",
-            "Ate a bluefish.",
-            "Ate a grouper.",
-            "Ate a sea bass.",
-            "Ate a yellowfin tuna.",
-            "Ate a marlin.",
-            "Ate an orange roughy.",
-            "Ate a shark.",
-            "Ate a swordfish.",
-            "Ate a tilefish.",
-            "Ate a tuna."
+            "降低声音",
+            "吃了1只 腌鱼。 等等。 等一下。",
+            "你吃了一顿丰盛的鱼！",
+            "鱼。",
+            "吃了1只 鲨鱼。 等等。 不，这不是鲨鱼。",
+            "吃了1只 凤尾鱼。",
+            "吃了1只 鲶鱼.",
+            "吃了1只 比目鱼.",
+            "吃了1只 haddock.",
+            "吃了1只 herring.",
+            "吃了1只 mackerel.",
+            "吃了1只 mullet.",
+            "吃了1只 perch.",
+            "吃了1只 pollock.",
+            "吃了1只 salmon.",
+            "吃了1只 sardine.",
+            "吃了1只 sole.",
+            "吃了1只 tilapia.",
+            "吃了1只 trout.",
+            "吃了1只 whitefish.",
+            "吃了1只 bass.",
+            "吃了1只 carp.",
+            "吃了1只 cod.",
+            "吃了1只 halibut.",
+            "吃了1只 mahi mahi.",
+            "吃了1只 monkfish.",
+            "吃了1只 perch.",
+            "吃了1只 snapper.",
+            "吃了1只 bluefish.",
+            "吃了1只 grouper.",
+            "吃了1只 sea bass.",
+            "吃了1只 yellowfin tuna.",
+            "吃了1只 marlin.",
+            "吃了1只 橙色连鳍鲑。",
+            "吃了1只 shark.",
+            "吃了1只 swordfish.",
+            "吃了1只 tilefish.",
+            "吃了1只 tuna."
 
         ],
-        helpText: "Use your natural shark prowess to find and catch a fish."
+        helpText: "使用你的天生的鲨鱼实力，找到并捕捉一条鱼。"
     },
 
     'prySponge': {
-        name: "Pry sponge",
+        name: "撬块海绵",
         effect: {
             resource: {
                 'sponge': 1

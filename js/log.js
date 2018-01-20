@@ -6,7 +6,7 @@ SharkGame.Log = {
     init: function() {
         var l = SharkGame.Log;
         // create log
-        $('#log').append("<button id='clearLog' class='min'></button><h3>Log<h3/><ul id='messageList'></ul>");
+        $('#log').append("<button id='clearLog' class='min'></button><h3>日志<h3/><ul id='messageList'></ul>");
         // add clear button
         SharkGame.Button.replaceButton("clearLog", "&nbsp x &nbsp", l.clearMessages);
         l.initialised = true;

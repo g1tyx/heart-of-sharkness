@@ -2,7 +2,7 @@ SharkGame.Gate = {
 
     tabId: "gate",
     tabDiscovered: false,
-    tabName: "Strange Gate",
+    tabName: "奇怪的门",
     tabBg: "img/bg/bg-gate.png",
 
     discoverReq: {

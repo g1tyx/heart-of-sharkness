@@ -74,11 +74,8 @@ h4 {
   margin-top: 0.8em;
   margin-bottom: 0.2em;
   background: #2e4372;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 2px 2px #2e4372;
-  -moz-box-shadow: 0 0 2px 2px #2e4372;
   box-shadow: 0 0 2px 2px #2e4372;
 }
 #wrapper {
@@ -87,8 +84,6 @@ h4 {
   margin-right: auto;
   margin-top: 5px;
   padding: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   height: 100%;
 }
@@ -101,10 +96,7 @@ pre {
 .section {
   background-color: #2e4372;
   -webkit-box-shadow: 0 0 5px 5px #13264d inset;
-  -moz-box-shadow: 0 0 5px 5px #13264d inset;
   box-shadow: 0 0 5px 5px #13264d inset;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 5px;
   overflow: hidden;
@@ -120,13 +112,13 @@ pre {
   clear: both;
   background-color: #2e4372;
   -webkit-box-shadow: 0 0 5px 5px #13264d inset;
-  -moz-box-shadow: 0 0 5px 5px #13264d inset;
   box-shadow: 0 0 5px 5px #13264d inset;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 5px;
   overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 67, 114, 0.2)), to(rgba(46, 67, 114, 0.2))), #2e4372 url("../img/sharklogo.png") no-repeat center;
+  background: -webkit-linear-gradient(rgba(46, 67, 114, 0.2), rgba(46, 67, 114, 0.2)), #2e4372 url("../img/sharklogo.png") no-repeat center;
+  background: -o-linear-gradient(rgba(46, 67, 114, 0.2), rgba(46, 67, 114, 0.2)), #2e4372 url("../img/sharklogo.png") no-repeat center;
   background: linear-gradient(rgba(46, 67, 114, 0.2), rgba(46, 67, 114, 0.2)), #2e4372 url("../img/sharklogo.png") no-repeat center;
   text-shadow: 2px 2px 3px #061639;
 }
@@ -213,10 +205,7 @@ pre {
   width: 25%;
   background-color: #2e4372;
   -webkit-box-shadow: 0 0 5px 5px #13264d inset;
-  -moz-box-shadow: 0 0 5px 5px #13264d inset;
   box-shadow: 0 0 5px 5px #13264d inset;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 5px;
   overflow: hidden;
@@ -288,10 +277,7 @@ pre {
 #content {
   background-color: #2e4372;
   -webkit-box-shadow: 0 0 5px 5px #13264d inset;
-  -moz-box-shadow: 0 0 5px 5px #13264d inset;
   box-shadow: 0 0 5px 5px #13264d inset;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 5px;
   overflow: hidden;
@@ -302,11 +288,8 @@ pre {
   margin: 5px;
   padding: 1.4em;
   background: repeat-x center;
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
   border-radius: 0.5em;
   -webkit-box-shadow: 0 0 30px 30px #2e4372 inset;
-  -moz-box-shadow: 0 0 30px 30px #2e4372 inset;
   box-shadow: 0 0 30px 30px #2e4372 inset;
   text-shadow: 0 0 0.3em #152a55;
 }
@@ -316,8 +299,10 @@ pre {
 #buttonList {
   padding: 5px;
   margin: 5px;
+    text-align: left;
   padding: 1.0em;
 }
+#buttonList button{width: 30%;display: inline-block;margin-right: 1%;}
 .pileArrangement ul {
   display: inline-block;
 }
@@ -342,19 +327,16 @@ button.newlyDiscovered {
 button.newlyDiscovered div {
   background-color: #73d0b1;
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
 }
 button.newlyDiscovered:hover {
   -webkit-box-shadow: 0px 0px 2px 2px #ace3d1;
-  -moz-box-shadow: 0px 0px 2px 2px #ace3d1;
   box-shadow: 0px 0px 2px 2px #ace3d1;
 }
 button.newlyDiscovered:active {
   background-color: #2b7f63;
   color: #73d0b1;
   -webkit-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
-  -moz-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
   box-shadow: 0px 3px 7px 7px #2b7f63 inset;
 }
 button.newlyDiscovered:active .medDesc {
@@ -363,7 +345,6 @@ button.newlyDiscovered:active .medDesc {
 button.newlyDiscovered:active div {
   background-color: #2b7f63;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 button.newlyDiscovered:disabled {
@@ -377,7 +358,6 @@ button.newlyDiscovered:disabled .medDesc {
 button.newlyDiscovered:disabled div {
   background-color: #174636;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 button.newlyDiscovered div.tint:before {
@@ -534,7 +514,6 @@ button.newlyDiscovered div.tint:before {
   color: #d4bbbb;
   border: 0.1em solid #975f5f;
   -webkit-box-shadow: 0 0 15px 15px #450808 inset;
-  -moz-box-shadow: 0 0 15px 15px #450808 inset;
   box-shadow: 0 0 15px 15px #450808 inset;
   padding: 0.5em;
   z-index: 5;
@@ -550,8 +529,6 @@ button.newlyDiscovered div.tint:before {
 button {
   background-color: #4e638e;
   color: #ffffff;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   border: 2px solid #7788aa;
   padding: 10px;
@@ -561,7 +538,6 @@ button {
   min-width: 12em;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -584,14 +560,12 @@ button.min-block {
 }
 button:hover {
   -webkit-box-shadow: 0px 0px 2px 2px #7788aa;
-  -moz-box-shadow: 0px 0px 2px 2px #7788aa;
   box-shadow: 0px 0px 2px 2px #7788aa;
 }
 button:active {
   background-color: #152a55;
   color: #4e638e;
   -webkit-box-shadow: 0px 3px 7px 7px #061639 inset;
-  -moz-box-shadow: 0px 3px 7px 7px #061639 inset;
   box-shadow: 0px 3px 7px 7px #061639 inset;
 }
 button:active .medDesc {
@@ -600,7 +574,6 @@ button:active .medDesc {
 }
 button:active div {
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   background-color: #152a55;
 }
@@ -614,10 +587,12 @@ button:disabled {
   border-color: #3d5896;
 }
 button:disabled:hover {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 button:disabled:active {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 button:disabled .medDesc {
   font-size: 80%;
@@ -625,7 +600,6 @@ button:disabled .medDesc {
 }
 button:disabled div {
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   background-color: #061639;
 }
@@ -633,10 +607,7 @@ button:disabled div {
   vertical-align: middle;
   background-color: #7788aa;
   -webkit-box-shadow: 0 0 3px 3px #7788aa;
-  -moz-box-shadow: 0 0 3px 3px #7788aa;
   box-shadow: 0 0 3px 3px #7788aa;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   pointer-events: none;
 }
@@ -644,10 +615,7 @@ button:disabled div {
   vertical-align: middle;
   background-color: #7788aa;
   -webkit-box-shadow: 0 0 3px 3px #7788aa;
-  -moz-box-shadow: 0 0 3px 3px #7788aa;
   box-shadow: 0 0 3px 3px #7788aa;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   pointer-events: none;
   display: block;
@@ -657,10 +625,7 @@ button:disabled div {
   vertical-align: middle;
   background-color: #7788aa;
   -webkit-box-shadow: 0 0 3px 3px #7788aa;
-  -moz-box-shadow: 0 0 3px 3px #7788aa;
   box-shadow: 0 0 3px 3px #7788aa;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   pointer-events: none;
   display: inline-block;
@@ -684,39 +649,28 @@ button:disabled div {
   vertical-align: middle;
   display: block;
   margin: 0.1em auto 0.4em auto;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 5px 5px #152a55;
-  -moz-box-shadow: 0 0 5px 5px #152a55;
   box-shadow: 0 0 5px 5px #152a55;
 }
 #tabSceneImageRed {
   vertical-align: middle;
   display: block;
   margin: 0.1em auto 0.4em auto;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 5px 5px #152a55;
-  -moz-box-shadow: 0 0 5px 5px #152a55;
   box-shadow: 0 0 5px 5px #152a55;
   -webkit-box-shadow: 0 0 5px 5px #5c1919;
-  -moz-box-shadow: 0 0 5px 5px #5c1919;
   box-shadow: 0 0 5px 5px #5c1919;
 }
 #tabSceneImageEssence {
   vertical-align: middle;
   display: block;
   margin: 0.1em auto 0.4em auto;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 5px 5px #152a55;
-  -moz-box-shadow: 0 0 5px 5px #152a55;
   box-shadow: 0 0 5px 5px #152a55;
   -webkit-box-shadow: 0 0 5px 5px #3eb890;
-  -moz-box-shadow: 0 0 5px 5px #3eb890;
   box-shadow: 0 0 5px 5px #3eb890;
 }
 #overlay {
@@ -753,10 +707,7 @@ button:disabled div {
 #pane {
   background-color: #152a55;
   -webkit-box-shadow: 0 0 5px 5px #051230 inset;
-  -moz-box-shadow: 0 0 5px 5px #051230 inset;
   box-shadow: 0 0 5px 5px #051230 inset;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 1em 2em;
   margin: auto;
@@ -765,9 +716,7 @@ button:disabled div {
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   border: double #2e4372;
   max-height: 90%;
@@ -867,19 +816,16 @@ button:disabled div {
 .gatewayButton div {
   background-color: #73d0b1;
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
 }
 .gatewayButton:hover {
   -webkit-box-shadow: 0px 0px 2px 2px #ace3d1;
-  -moz-box-shadow: 0px 0px 2px 2px #ace3d1;
   box-shadow: 0px 0px 2px 2px #ace3d1;
 }
 .gatewayButton:active {
   background-color: #2b7f63;
   color: #73d0b1;
   -webkit-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
-  -moz-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
   box-shadow: 0px 3px 7px 7px #2b7f63 inset;
 }
 .gatewayButton:active .medDesc {
@@ -888,7 +834,6 @@ button:disabled div {
 .gatewayButton:active div {
   background-color: #2b7f63;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 .gatewayButton:disabled {
@@ -902,7 +847,6 @@ button:disabled div {
 .gatewayButton:disabled div {
   background-color: #174636;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 .gatewayButton div.tint:before {
@@ -917,19 +861,16 @@ button:disabled div {
 .gateway button div {
   background-color: #73d0b1;
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
 }
 .gateway button:hover {
   -webkit-box-shadow: 0px 0px 2px 2px #ace3d1;
-  -moz-box-shadow: 0px 0px 2px 2px #ace3d1;
   box-shadow: 0px 0px 2px 2px #ace3d1;
 }
 .gateway button:active {
   background-color: #2b7f63;
   color: #73d0b1;
   -webkit-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
-  -moz-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
   box-shadow: 0px 3px 7px 7px #2b7f63 inset;
 }
 .gateway button:active .medDesc {
@@ -938,7 +879,6 @@ button:disabled div {
 .gateway button:active div {
   background-color: #2b7f63;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 .gateway button:disabled {
@@ -952,7 +892,6 @@ button:disabled div {
 .gateway button:disabled div {
   background-color: #174636;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 .gateway button div.tint:before {
@@ -967,19 +906,16 @@ button.gateway {
 button.gateway div {
   background-color: #73d0b1;
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
 }
 button.gateway:hover {
   -webkit-box-shadow: 0px 0px 2px 2px #ace3d1;
-  -moz-box-shadow: 0px 0px 2px 2px #ace3d1;
   box-shadow: 0px 0px 2px 2px #ace3d1;
 }
 button.gateway:active {
   background-color: #2b7f63;
   color: #73d0b1;
   -webkit-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
-  -moz-box-shadow: 0px 3px 7px 7px #2b7f63 inset;
   box-shadow: 0px 3px 7px 7px #2b7f63 inset;
 }
 button.gateway:active .medDesc {
@@ -988,7 +924,6 @@ button.gateway:active .medDesc {
 button.gateway:active div {
   background-color: #2b7f63;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 button.gateway:disabled {
@@ -1002,19 +937,15 @@ button.gateway:disabled .medDesc {
 button.gateway:disabled div {
   background-color: #174636;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 button.gateway div.tint:before {
   background: rgba(23, 70, 54, 0.8);
 }
 #pane.gateway {
-  -webkit-border-radius: 3em;
-  -moz-border-radius: 3em;
   border-radius: 3em;
   background-color: #2b7f63;
   -webkit-box-shadow: 0 0 2em 2em #2b7f63;
-  -moz-box-shadow: 0 0 2em 2em #2b7f63;
   box-shadow: 0 0 2em 2em #2b7f63;
   border: none;
 }
@@ -1062,6 +993,9 @@ button.gateway div.tint:before {
   margin: 0.5em auto;
   padding: 0.5em;
 }
+.gateway ::-moz-selection {
+  background-color: #174636;
+}
 .gateway ::selection {
   background-color: #174636;
 }
@@ -1074,12 +1008,9 @@ button.gateway div.tint:before {
 .artifactDiv {
   display: inline-block;
   vertical-align: middle;
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
   border-radius: 0.5em;
   background-color: #2b7f63;
   -webkit-box-shadow: 0 0 0.5em 0.5em #2b7f63;
-  -moz-box-shadow: 0 0 0.5em 0.5em #2b7f63;
   box-shadow: 0 0 0.5em 0.5em #2b7f63;
   padding: 0.2em;
   margin: 1.5em;
@@ -1087,16 +1018,12 @@ button.gateway div.tint:before {
 }
 .artifactDiv .gatewayButton {
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
 }
 .planetDisplay {
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
   border-radius: 50px;
   background-color: #73d0b1;
   -webkit-box-shadow: 0 0 3px 3px #73d0b1;
-  -moz-box-shadow: 0 0 3px 3px #73d0b1;
   box-shadow: 0 0 3px 3px #73d0b1;
   margin: 0 auto;
 }
@@ -1109,23 +1036,18 @@ button.planetButton {
   margin: 0.8em;
 }
 button.planetButton div {
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
   border-radius: 50px;
 }
 button.planetButton:hover {
   text-shadow: 0 0 0.3em #bfe9dc, 0 0 0.6em #d2f0e6, 0 0 0.9em #e5f6f1;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 button.planetButton:hover div {
   -webkit-box-shadow: 0 0 0.4em 0.4em #ace3d1;
-  -moz-box-shadow: 0 0 0.4em 0.4em #ace3d1;
   box-shadow: 0 0 0.4em 0.4em #ace3d1;
 }
 button.planetButton:active {
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }

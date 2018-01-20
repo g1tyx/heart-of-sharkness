@@ -2,7 +2,7 @@ SharkGame.Recycler = {
 
     tabId: "recycler",
     tabDiscovered: false,
-    tabName: "Recycler",
+    tabName: "回收",
     tabBg: "img/bg/bg-recycler.png",
 
     sceneImage: "img/events/misc/scene-recycler.png",

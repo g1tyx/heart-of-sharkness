@@ -26,9 +26,9 @@ $.extend(SharkGame, {
         "Strange Oceans"
     ],
     GAME_NAME: null,
-    ACTUAL_GAME_NAME: "Shark Game",
+    ACTUAL_GAME_NAME: "鲨鱼游戏",
     VERSION: 0.71,
-    VERSION_NAME: "Stranger Oceans",
+    VERSION_NAME: "陌生的海洋",
     EPSILON: 1E-6, // floating point comparison is a joy
 
     INTERVAL: (1000 / 10), // 20 FPS
@@ -148,7 +148,7 @@ $.extend(SharkGame, {
 
 SharkGame.TitleBar = {
     saveLink: {
-        name: "save",
+        name: "保存",
         main: true,
         onClick: function() {
             try {
@@ -167,7 +167,7 @@ SharkGame.TitleBar = {
     },
 
     optionsLink: {
-        name: "options",
+        name: "选项",
         main: true,
         onClick: function() {
             SharkGame.Main.showOptions();
@@ -175,7 +175,7 @@ SharkGame.TitleBar = {
     },
 
     changelogLink: {
-        name: "changelog",
+        name: "更新日志",
         main: false,
         onClick: function() {
             SharkGame.Main.showChangelog();
@@ -183,7 +183,7 @@ SharkGame.TitleBar = {
     },
 
     helpLink: {
-        name: "help",
+        name: "帮助",
         main: true,
         onClick: function() {
             SharkGame.Main.showHelp();
@@ -209,7 +209,7 @@ SharkGame.TitleBar = {
     },
 
     creditsLink: {
-        name: "credits",
+        name: " 关于",
         main: false,
         onClick: function() {
             SharkGame.Main.showPane("Credits", SharkGame.credits);
@@ -217,7 +217,7 @@ SharkGame.TitleBar = {
     },
 
     donateLink: {
-        name: "donate",
+        name: "捐赠",
         main: false,
         onClick: function() {
             SharkGame.Main.showPane("Donate", SharkGame.donate);
@@ -226,7 +226,7 @@ SharkGame.TitleBar = {
 };
 
 SharkGame.Tabs = {
-    current: 'home'
+    current: '首页'
 };
 
 SharkGame.Main = {
@@ -401,7 +401,7 @@ SharkGame.Main = {
         if(SharkGame.Save.savedGameExists()) {
             try{
                 SharkGame.Save.loadGame();
-                SharkGame.Log.addMessage("Loaded game.");
+                SharkGame.Log.addMessage("加载游戏。");
             } catch(err) {
                 SharkGame.Log.addError(err.message);
             }
@@ -409,7 +409,7 @@ SharkGame.Main = {
 
         // rename a game option if this is a first time run
         if(SharkGame.Main.isFirstTime()) {
-            SharkGame.TitleBar.skipLink.name = "reset";
+            SharkGame.TitleBar.skipLink.name = "重置";
             SharkGame.Main.setUpTitleBar();
         }
 
@@ -600,14 +600,14 @@ SharkGame.Main = {
                     .attr("id", "buy-" + v)
                     .prop("disabled", disableButton)
             ));
-            var label = customLabel ? customLabel + " " : "buy ";
+            var label = customLabel ? customLabel + " " : "购买 ";
             if(amount < 0) {
                 if(amount < -2) {
-                    label += "1/3 max"
+                    label += "1/3 最大"
                 } else if(amount < -1) {
-                    label += "1/2 max"
+                    label += "1/2 最大"
                 } else if(amount < 0) {
-                    label += "max"
+                    label += "最大"
                 }
             } else {
                 label += SharkGame.Main.beautify(amount);

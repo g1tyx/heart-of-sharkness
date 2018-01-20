@@ -2,7 +2,7 @@ SharkGame.Lab = {
 
     tabId: "lab",
     tabDiscovered: false,
-    tabName: "Laboratory",
+    tabName: "实验室",
     tabBg: "img/bg/bg-lab.png",
 
     sceneImage: "img/events/misc/scene-lab.png",
@@ -14,9 +14,9 @@ SharkGame.Lab = {
         }
     },
 
-    message: "Sort of just off to the side, the science sharks congregate and discuss things with words you've never heard before.",
-    messageDone: "Sort of just off to the side, the science sharks quietly wrap up their badly disguised party and pretend to work.<br/>" +
-        "Looks like that's it! No more things to figure out.",
+    message: "就在这一边，科学鲨鱼聚集在一起讨论一些你从未听过的词。",
+    messageDone: "就在这一边，科学鲨鱼悄悄地结束了他们的伪装派对，假装工作。<br/>" +
+        "看起来就是这样!没有别的事可做了。",
 
 
 
