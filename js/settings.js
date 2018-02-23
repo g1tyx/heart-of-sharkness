@@ -140,7 +140,7 @@ SharkGame.Settings = {
     colorCosts: {
         defaultSetting: true,
         name: "Color Resource Names",
-        desc: "当显示成本时，使用颜色来辨识名称。",
+        desc: "当显示成本时，使用高亮颜色来区别。",
         show: true,
         options: [
             true,

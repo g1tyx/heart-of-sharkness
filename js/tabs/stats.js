@@ -20,9 +20,9 @@ SharkGame.Stats = {
         "harmful"
     ],
 
-    message: "The grotto is a place to keep a better track of resources." +
-        "</br></br>You can also dispose of those you don't need anymore." +
-        "</br>Disposing specialists returns them to their normal, previous lives.",
+    message: "岩洞是一个可以更好地追踪资源的地方。" +
+        "</br></br>你也可以处理那些你不再需要的东西。" +
+        "</br>处理专家将他们恢复到正常的，以前的生活。",
 
     init: function() {
         var s = SharkGame.Stats;
@@ -61,17 +61,17 @@ SharkGame.Stats = {
         tabMessageSel.html(message);
 
         var disposeSel = $('#disposeResource');
-        disposeSel.append($('<h3>').html("Dispose of Stuff"));
+        disposeSel.append($('<h3>').html("处理材料"));
         s.createDisposeButtons();
 
         var table = s.createIncomeTable();
         var incomeDataSel = $('#incomeData');
-        incomeDataSel.append($('<h3>').html("Income Details"));
-        incomeDataSel.append($('<p>').html("(Listed below are resources, the income each resource gives you, and the total income you're getting from each thing.)").addClass("medDesc"));
+        incomeDataSel.append($('<h3>').html("收入明细"));
+        incomeDataSel.append($('<p>').html("(下面列出的是资源、每个资源的收入，以及从每件事物获得的总收入。)").addClass("medDesc"));
         incomeDataSel.append(table);
 
         var genStats = $('#generalStats');
-        genStats.append($('<h3>').html("General Stats"));
+        genStats.append($('<h3>').html("一般统计"));
         var firstTime = SharkGame.Main.isFirstTime();
         if(!firstTime) {
             genStats.append($('<p>').html("<span class='medDesc'>气候水平</span><br>" + SharkGame.Main.beautify(SharkGame.World.planetLevel)));

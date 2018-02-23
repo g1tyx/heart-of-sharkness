@@ -1078,7 +1078,7 @@ SharkGame.HomeActions = {
         },
         outcomes: [
             "Doctor Shark, coming right up!",
-            "A scientist shark is revealed!",
+            "发现科学家鲨鱼！",
             "After many painful years of study, a shark that has developed excellent skills in making excuses-- er, in science!",
             "PhD approved!",
             "Graduation complete!",

@@ -158,7 +158,7 @@ SharkGame.TitleBar = {
                     SharkGame.Log.addError(err);
                     console.log(err);
                 }
-                SharkGame.Log.addMessage("Saved game.");
+                SharkGame.Log.addMessage("游戏已保存。");
             } catch(err) {
                 SharkGame.Log.addError(err.message);
             }
@@ -490,7 +490,7 @@ SharkGame.Main = {
             if(reqsMet) {
                 // unlock tab!
                 SharkGame.Main.discoverTab(k);
-                SharkGame.Log.addDiscovery("Discovered " + v.name + "!");
+                SharkGame.Log.addDiscovery("已发现 " + v.name + "!");
             }
         });
     },
@@ -505,7 +505,7 @@ SharkGame.Main = {
     autosave: function() {
         try {
             SharkGame.Save.saveGame();
-            SharkGame.Log.addMessage("Autosaved.");
+            SharkGame.Log.addMessage("已自动保存。");
         } catch(err) {
             SharkGame.Log.addError(err.message);
             console.log(err.trace);

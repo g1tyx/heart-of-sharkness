@@ -402,7 +402,7 @@ SharkGame.Resources = {
         if(pr.totalAmount > 0) {
             row.append($('<td>')
                     .attr("id", "resource-" + k)
-                    .html(cnname(SharkGame.Resources.getResourceName(k)))
+                    .html(SharkGame.Resources.getResourceName(k))
             );
 
             row.append($('<td>')

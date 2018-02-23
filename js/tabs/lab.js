@@ -52,7 +52,7 @@ SharkGame.Lab = {
         tabMessageSel.html(message);
         content.append(tabMessageSel);
         var buttonListContainer = $('<div>').attr("id", "buttonLeftContainer");
-        buttonListContainer.append($('<div>').attr("id", "buttonList").append($("<h3>").html("Available Upgrades")));
+        buttonListContainer.append($('<div>').attr("id", "buttonList").append($("<h3>").html("可用升级")));
         content.append(buttonListContainer);
         content.append($('<div>').attr("id", "upgradeList"));
         content.append($('<div>').addClass("clear-fix"));
@@ -60,7 +60,7 @@ SharkGame.Lab = {
 
         l.updateUpgradeList();
         if(allResearchDone) {
-            $('#buttonList').append($('<p>').html("All clear here!"));
+            $('#buttonList').append($('<p>').html("此区域已清空!"));
         }
     },
 
@@ -252,7 +252,7 @@ SharkGame.Lab = {
     },
 
     getResearchEffects: function(upgrade, darken) {
-        var effects = "<span class='medDesc' class='click-passthrough'>(Effects: ";
+        var effects = "<span class='medDesc' class='click-passthrough'>(效果: ";
         if(upgrade.effect) {
             if(upgrade.effect.multiplier) {
                 $.each(upgrade.effect.multiplier, function(k, v) {
@@ -274,7 +274,7 @@ SharkGame.Lab = {
         var u = SharkGame.Upgrades;
         var upgradeList = $('#upgradeList');
         upgradeList.empty();
-        upgradeList.append($("<h3>").html("Researched Upgrades"));
+        upgradeList.append($("<h3>").html("研究升级"));
         var list = $('<ul>');
         $.each(u, function(k, v) {
             if(v.purchased) {

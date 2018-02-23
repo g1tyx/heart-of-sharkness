@@ -203,7 +203,7 @@ SharkGame.ResourceTable = {
 
     brood: {
         name: '螃蟹巢',
-        singleName: 'crab brood',
+        singleName: '螃蟹巢',
         //desc: "The unending process.",
         color: '#9E7272',
         income: {
@@ -257,7 +257,7 @@ SharkGame.ResourceTable = {
 
     scientist: {
         name: '科学鲨鱼',
-        singleName: 'science shark',
+        singleName: '科学鲨鱼',
         //desc: "Creators of the shark future.",
         color: '#DCEBF5',
         income: {
@@ -278,8 +278,8 @@ SharkGame.ResourceTable = {
     },
 
     laser: {
-        name: 'laser rays',
-        singleName: 'laser ray',
+        name: '激光射线',
+        singleName: '激光射线',
         //desc: "Destructive forces of creation.",
         color: '#E85A5A',
         income: {
@@ -290,8 +290,8 @@ SharkGame.ResourceTable = {
     },
 
     planter: {
-        name: 'planter crabs',
-        singleName: 'planter crab',
+        name: '种植蟹',
+        singleName: '种植蟹',
         //desc: "Stewards of an ecosystem.",
         color: '#AAE03D',
         income: {
@@ -624,7 +624,7 @@ SharkGame.ResourceTable = {
     // SCIENCE
 
     science: {
-        name: 'science',
+        name: '科学',
         singleName: 'science',
         //desc: "Lifeblood of progress.",
         color: '#BBA4E0',
@@ -634,7 +634,7 @@ SharkGame.ResourceTable = {
     // ANIMALS
 
     fish: {
-        name: 'fish',
+        name: '鱼',
         singleName: 'fish',
         //desc: "The hunted.",
         color: '#E3D85B',
@@ -642,7 +642,7 @@ SharkGame.ResourceTable = {
     },
 
     seaApple: {
-        name: 'sea apples',
+        name: '海苹果',
         singleName: 'sea apple',
         //desc: "Rooted filters.",
         color: '#F0C2C2',
@@ -650,7 +650,7 @@ SharkGame.ResourceTable = {
     },
 
     sponge: {
-        name: 'sponge',
+        name: '海绵',
         singleName: 'sponge',
         color: '#ED9847',
         income: {
@@ -661,15 +661,15 @@ SharkGame.ResourceTable = {
     },
 
     jellyfish: {
-        name: 'jellyfish',
-        singleName: 'jellyfish',
+        name: '水母',
+        singleName: '水母',
         color: '#E3B8FF',
         value: 3
     },
 
     clam: {
-        name: 'clams',
-        singleName: 'clam',
+        name: '蛤蜊',
+        singleName: '蛤蜊',
         color: '#828FB5',
         value: 3
     },
@@ -677,24 +677,24 @@ SharkGame.ResourceTable = {
     // MATERIALS
 
     sand: {
-        name: 'sand',
-        singleName: 'sand',
+        name: '沙子',
+        singleName: '沙子',
         //desc: "Flesh of the ocean floor.",
         color: '#C7BD75',
         value: 3
     },
 
     crystal: {
-        name: 'crystals',
-        singleName: 'crystal',
+        name: '水晶',
+        singleName: '水晶',
         //desc: "Inscrutable secrets in solid form.",
         color: '#6FD9CC',
         value: 15
     },
 
     kelp: {
-        name: 'kelp',
-        singleName: 'kelp',
+        name: '海带',
+        singleName: '海带',
         //desc: "A home for the stranger.",
         color: '#9CC232',
         income: {
@@ -721,7 +721,7 @@ SharkGame.ResourceTable = {
     // PROCESSED
 
     sharkonium: {
-        name: 'sharkonium',
+        name: '鲨鎓',
         singleName: 'sharkonium',
         //desc: "Progress incarnate.",
         color: '#8D70CC',

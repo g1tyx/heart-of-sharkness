@@ -337,7 +337,7 @@ SharkGame.Save = {
                 }
             }
         } else {
-            throw new Error("Couldn't load saved game. I don't know how to break this to you, but I think your save is corrupted. Your save: " + saveDataString);
+            throw new Error("无法加载游戏存档。我不知道该怎么跟你说，但我想你的存档已经坏了。你的存档: " + saveDataString);
         }
     },
 

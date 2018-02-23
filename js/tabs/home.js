@@ -432,7 +432,7 @@ SharkGame.Home = {
             enableButton = r.checkResources(actionCost);
         }
 
-        var label = actionData.name;
+        var label = cnname(actionData.name);
         if(!$.isEmptyObject(actionCost) && amount > 1) {
             label += " (" + SharkGame.Main.beautify(amount) + ")";
         }
@@ -711,6 +711,38 @@ function cnname(name){
         cnname="其它机器"
     }else if(temp=="Unique"){
         cnname="特殊"
+    }else if(temp=="Recruit shark"){
+        //鱼名称
+        cnname="招募鲨鱼"
+    }else if(temp=="Hire ray"){
+        cnname="雇佣射线"
+    }else if(temp=="Acquire crab"){
+        cnname="捕蟹"
+    }else if(temp=="Train science shark"){
+        cnname="训练科学鲨鱼"
+    }else if(temp=="Train nurse shark"){
+        cnname="训练护士鲨"
+    }else if(temp=="Equip laser ray"){
+        cnname="装备激光射线"
+    }else if(temp=="Instruct a ray maker"){
+        cnname="指导射线制造商"
+    }else if(temp==""){
+        cnname=""
+    }else if(temp==""){
+        cnname=""
+    }else if(temp==""){
+        cnname=""
+    }else if(temp==""){
+        cnname=""
+    }else if(temp==""){
+        cnname=""
+    }else if(temp==""){
+        cnname=""
+    }else if(temp=="science"){
+        //资源名称
+        cnname="科学"
+    }else if(temp==""){
+        cnname=""
     }else{
         return name;
     }
