@@ -3,8 +3,8 @@ var SharkGame = SharkGame || {};
 
 // CORE VARIABLES AND HELPER FUNCTIONS
 $.extend(SharkGame, {
-    GAME_NAMES: ["Five Seconds A Shark",
-        "Next Shark Game",
+    GAME_NAMES: ["五秒钟鲨鱼",
+        "下一个鲨鱼游戏",
         "Next Shark Game: Barkfest",
         "Sharky Clicker",
         "Weird Oceans",
@@ -14,8 +14,8 @@ $.extend(SharkGame, {
         "Fin Idle",
         "Ray of Dreams",
         "Shark Saver",
-        "Shoal Sharker",
-        "Shark Souls",
+        "浅滩鲨鱼",
+        "鲨鱼的灵魂",
         "Saucy Sharks",
         "Sharkfall",
         "Heart of Sharkness",
@@ -63,7 +63,7 @@ $.extend(SharkGame, {
     "You are free to pay as much attention to the game as you want. " +
     "It will happily run in the background, and works even while closed.</p>" +
     "<p>To begin, you should catch fish. Once you have some fish, more actions will become available. " +
-    "If you have no idea what these actions do, click the \"Toggle descriptions\" button for more information.</p>" +
+    "If you have no idea what these actions do, click the \"隐藏/显示描述\" button for more information.</p>" +
     "<p>If you are ever stuck, try actions you haven't yet tried. " +
     "Remember, though, that sometimes patience is the only way forward. Patience and ever escalating numbers.</p>",
 

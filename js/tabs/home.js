@@ -16,15 +16,15 @@ SharkGame.Home = {
         },
         {
             unlock: {resource: {fish: 5}},
-            message: "You attract the attention of a shark. Maybe they can help you catch fish!<br>&nbsp"
+            message: "你吸引了鲨鱼的注意。也许他们可以帮你抓鱼!<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 1}},
-            message: "More sharks swim over, curious and watchful.<br>&nbsp"
+            message: "更多的鲨鱼游过去，充满好奇和警惕。<br>&nbsp"
         },
         {
             unlock: {resource: {fish: 15}},
-            message: "Some rays drift over.<br>&nbsp"
+            message: "有些射线飘过去了。<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 1, ray: 1}},
@@ -200,7 +200,7 @@ SharkGame.Home = {
         // help button
         var helpButtonDiv = $('<div>');
         helpButtonDiv.css({margin: "auto", clear: "both"});
-        SharkGame.Button.makeButton("helpButton", "&nbsp Toggle descriptions &nbsp", helpButtonDiv, h.toggleHelp).addClass("min-block");
+        SharkGame.Button.makeButton("helpButton", "&nbsp 隐藏/显示描述 &nbsp", helpButtonDiv, h.toggleHelp).addClass("min-block");
         content.append(helpButtonDiv);
         // button list
         var buttonList = $('<div>').attr("id", "buttonList");
@@ -247,12 +247,12 @@ SharkGame.Home = {
             if(categoryDiscovered) {
                 var tabListItem = $('<li>');
                 if(onThisTab) {
-                    tabListItem.html(v.name);
+                    tabListItem.html(cnname(v.name));
                 } else {
                     tabListItem.append($('<a>')
                             .attr("id", "buttonTab-" + k)
                             .attr("href", "javascript:;")
-                            .html(v.name)
+                            .html(cnname(v.name))
                             .click(function() {
                                 var tab = ($(this).attr("id")).split("-")[1];
                                 SharkGame.Home.changeButtonTab(tab);
@@ -338,7 +338,7 @@ SharkGame.Home = {
                     sceneDiv = $('<div>').attr("id", "tabSceneImage");
                 }
             }
-            var message = "You are a shark in a " + wi.shortDesc + " sea.";
+            var message = "你是一条生活在 " + wi.shortDesc + " 海的鲨鱼。";
             message += "<br><span id='extraMessage' class='medDesc'>&nbsp<br>&nbsp</span>";
             tabMessage.html(message).prepend(sceneDiv);
 
@@ -445,11 +445,11 @@ SharkGame.Home = {
             }
         });
         if(infinitePrice) {
-            label += "<br>Maxed out";
+            label += "<br>刷爆了";
         } else {
             var costText = r.resourceListToString(actionCost, !enableButton);
             if(costText != "") {
-                label += "<br>Cost: " + costText;
+                label += "<br>成本: " + costText;
             }
         }
 
@@ -689,3 +689,30 @@ SharkGame.Home = {
         SharkGame.Settings.current.showTabHelp = !SharkGame.Settings.current.showTabHelp;
     }
 };
+
+function cnname(name){
+     var cnname="";
+    var temp=name;
+    if(temp=="All"){
+        cnname="全部"
+    }else if(temp=="Basic"){
+        cnname="基本"
+    }else if(temp=="Frenzy"){
+        cnname="疯狂"
+    }else if(temp=="Jobs"){
+        cnname="工作"
+    }else if(temp=="Producers"){
+        cnname="生产者"
+    }else if(temp=="Processing"){
+        cnname="加工"
+    }else if(temp=="Shark Machines"){
+        cnname="鲨鱼机器"
+    }else if(temp=="Other Machines"){
+        cnname="其它机器"
+    }else if(temp=="Unique"){
+        cnname="特殊"
+    }else{
+        return name;
+    }
+    return cnname;
+}

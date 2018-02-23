@@ -339,7 +339,7 @@ SharkGame.Resources = {
         var statusDiv = $('#status');
         // if resource table does not exist, create
         if(rTable.length <= 0) {
-            statusDiv.prepend('<h3>Stuff</h3>');
+            statusDiv.prepend('<h3>材料</h3>');
             var tableContainer = $('<div>').attr("id", "resourceTableContainer");
             tableContainer.append($('<table>').attr("id", 'resourceTable'));
             statusDiv.append(tableContainer);
@@ -402,7 +402,7 @@ SharkGame.Resources = {
         if(pr.totalAmount > 0) {
             row.append($('<td>')
                     .attr("id", "resource-" + k)
-                    .html(SharkGame.Resources.getResourceName(k))
+                    .html(cnname(SharkGame.Resources.getResourceName(k)))
             );
 
             row.append($('<td>')

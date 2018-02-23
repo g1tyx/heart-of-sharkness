@@ -27,7 +27,7 @@ SharkGame.Settings = {
     groupResources: {
         defaultSetting: false,
         name: "Group Resources",
-        desc: "Group resources in the table into categories for legibility.",
+        desc: "将表中的资源分组到可读性的类别中。",
         show: true,
         options: [
             true,
@@ -41,7 +41,7 @@ SharkGame.Settings = {
     buttonDisplayType: {
         defaultSetting: "list",
         name: "Home Sea Button Display",
-        desc: "Do you want a vertical list of buttons, or a more space-saving configuration?",
+        desc: "你想要一个垂直的按钮列表，还是一个更节省空间的配置?",
         show: true,
         options: [
             "list",
@@ -86,7 +86,7 @@ SharkGame.Settings = {
     logMessageMax: {
         defaultSetting: 20,
         name: "Max Log Messages",
-        desc: "How many messages to show before removing old ones.",
+        desc: "在删除旧的消息之前要显示多少条消息。",
         show: true,
         options: [
             5,
@@ -105,7 +105,7 @@ SharkGame.Settings = {
     sidebarWidth: {
         defaultSetting: "25%",
         name: "Sidebar Width",
-        desc: "How much screen estate the sidebar should take.",
+        desc: "侧边栏应该占用多少屏幕空间。",
         show: true,
         options: [
             "20%",
@@ -129,7 +129,7 @@ SharkGame.Settings = {
     showAnimations: {
         defaultSetting: true,
         name: "Show Animations",
-        desc: "Show animations or don't. YOU DECIDE.",
+        desc: "显示动画或不显示。你决定。",
         show: true,
         options: [
             true,
@@ -140,7 +140,7 @@ SharkGame.Settings = {
     colorCosts: {
         defaultSetting: true,
         name: "Color Resource Names",
-        desc: "When displaying costs, color names of stuff.",
+        desc: "当显示成本时，使用颜色来辨识名称。",
         show: true,
         options: [
             true,
@@ -155,7 +155,7 @@ SharkGame.Settings = {
     iconPositions: {
         defaultSetting: "top",
         name: "Icon Positions",
-        desc: "Where should icons go on the buttons?",
+        desc: "图标应该放在哪里?",
         show: true,
         options: [
             "top",
@@ -167,7 +167,7 @@ SharkGame.Settings = {
     showTabImages: {
         defaultSetting: true,
         name: "Show Tab Header Images",
-        desc: "Do you want the new header images or are they taking up precious screen real-estate?",
+        desc: "你想要新的标题图片还是他们占用了宝贵的屏幕空间?",
         show: true,
         options: [
             true,

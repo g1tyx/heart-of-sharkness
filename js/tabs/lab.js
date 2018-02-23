@@ -136,7 +136,7 @@ SharkGame.Lab = {
         var label = upgradeData.name + "<br/>" + upgradeData.desc + "<br/>" + effects;
         var costText = r.resourceListToString(upgradeCost, !enableButton);
         if(costText != "") {
-            label += "<br/>Cost: " + costText;
+            label += "<br/>成本: " + costText;
         }
         button.prop("disabled", !enableButton).html(label);
 
