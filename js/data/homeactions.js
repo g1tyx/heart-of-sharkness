@@ -186,7 +186,7 @@ SharkGame.HomeActions = {
     // CONVERSIONS ////////////////////////////////////////////////////////////////////////////////
 
     'seaApplesToScience': {
-        name: "Study sea apples",
+        name: "研究海苹果",
         effect: {
             resource: {
                 science: 5
@@ -1214,7 +1214,7 @@ SharkGame.HomeActions = {
     // CRAB JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getPlanter': {
-        name: "Gear up planter crab",
+        name: "加速种植螃蟹",
         effect: {
             resource: {
                 'planter': 1
@@ -1252,7 +1252,7 @@ SharkGame.HomeActions = {
     },
 
     'getBrood': {
-        name: "Form crab brood",
+        name: "形成蟹窝",
         effect: {
             resource: {
                 'brood': 1
@@ -1294,7 +1294,7 @@ SharkGame.HomeActions = {
     // SHRIMP JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getQueen': {
-        name: "Crown shrimp queen",
+        name: "女王皇冠虾",
         effect: {
             resource: {
                 'queen': 1
@@ -1332,7 +1332,7 @@ SharkGame.HomeActions = {
     },
 
     'getWorker': {
-        name: "Assign shrimp worker",
+        name: "指派虾工人",
         effect: {
             resource: {
                 'worker': 1
@@ -1372,7 +1372,7 @@ SharkGame.HomeActions = {
     // LOBSTER JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getBerrier': {
-        name: "Form lobster berrier",
+        name: "龙虾屏障形成",
         effect: {
             resource: {
                 'berrier': 1
@@ -1408,7 +1408,7 @@ SharkGame.HomeActions = {
     },
 
     'getHarvester': {
-        name: "Train lobster harvester",
+        name: "火车龙虾收获机",
         effect: {
             resource: {
                 'harvester': 1

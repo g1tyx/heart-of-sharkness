@@ -1,9 +1,9 @@
 SharkGame.Upgrades = {
     crystalBite: {
         name: "Crystal Bite-Gear",
-        desc: "Bite the crystals we have into something to help biting!",
-        researchedMessage: "Weird teeth-wear has been developed, and sharks can now catch fish better as a result.",
-        effectDesc: "Sharks are twice as effective with their new biting gear. Turns out they work better outside the mouth!",
+        desc: "咬下我们的晶体来帮助咬人!",
+        researchedMessage: "奇怪的牙齿磨损已经形成，鲨鱼现在可以更好地捕捉鱼了。",
+        effectDesc: "鲨鱼的新咬钩效果是它们的两倍。事实证明，他们在口腔外工作得更好!",
         cost: {
             science: 50,
             fish: 10

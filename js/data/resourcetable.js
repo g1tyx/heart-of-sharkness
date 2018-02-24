@@ -22,7 +22,7 @@ SharkGame.ResourceTable = {
 
     shark: {
         name: '鲨鱼',
-        singleName: 'shark',
+        singleName: '鲨鱼',
         //desc: "Apex predators of the seas.",
         color: '#92C1E0',
         income: {
@@ -36,8 +36,8 @@ SharkGame.ResourceTable = {
     },
 
     ray: {
-        name: '光线',
-        singleName: 'ray',
+        name: '射线',
+        singleName: '射线',
         //desc: "Kindred to the sharks.",
         color: '#797CFC',
         income: {
@@ -53,7 +53,7 @@ SharkGame.ResourceTable = {
 
     crab: {
         name: '螃蟹',
-        singleName: 'crab',
+        singleName: '螃蟹',
         //desc: "Dutiful, loyal crustaceans.",
         color: '#9C2424',
         income: {
@@ -69,7 +69,7 @@ SharkGame.ResourceTable = {
 
     shrimp: {
         name: '虾',
-        singleName: 'shrimp',
+        singleName: '虾',
         color: '#EF5D22',
         income: {
             'algae': 0.5
@@ -83,7 +83,7 @@ SharkGame.ResourceTable = {
 
     lobster: {
         name: '龙虾',
-        singleName: 'lobster',
+        singleName: '龙虾',
         color: '#BF0F00',
         income: {
             'clam': 1,
@@ -98,7 +98,7 @@ SharkGame.ResourceTable = {
 
     dolphin: {
         name: '海豚',
-        singleName: 'dolphin',
+        singleName: '海豚',
         color: '#C6BAC6',
         income: {
             'fish': 1,
@@ -115,7 +115,7 @@ SharkGame.ResourceTable = {
 
     whale: {
         name: '鲸鱼',
-        singleName: 'whale',
+        singleName: '鲸鱼',
         color: '#37557C',
         income: {
             'fish': 50
@@ -128,7 +128,7 @@ SharkGame.ResourceTable = {
 
     chimaera: {
         name: '银鲛',
-        singleName: 'chimaera',
+        singleName: '银鲛',
         color: '#7D77A5',
         income: {
             'jellyfish': 1.5,
@@ -149,7 +149,7 @@ SharkGame.ResourceTable = {
         // look basically the point is this is a long and storied word
         // and the english plural system should apply because we're talking about octopus, not ὀκτώπους, so just
         // why are you reading this
-        singleName: 'octopus',
+        singleName: '章鱼',
         color: '#965F37',
         income: {
             'clam': 2
@@ -163,7 +163,7 @@ SharkGame.ResourceTable = {
 
     eel: {
         name: '鳗鱼',
-        singleName: 'eel',
+        singleName: '鳗鱼',
         color: '#718D68',
         income: {
             'fish': 0.3,
@@ -181,7 +181,7 @@ SharkGame.ResourceTable = {
 
     nurse: {
         name: '护士鲨',
-        singleName: 'nurse shark',
+        singleName: '护士鲨',
         //desc: "Safeguarding the future.",
         color: '#C978DE',
         income: {
@@ -192,7 +192,7 @@ SharkGame.ResourceTable = {
 
     maker: {
         name: '射线制造者',
-        singleName: 'ray maker',
+        singleName: '射线制造者',
         //desc: "Caretakers of the helpless.",
         color: '#5355ED',
         income: {
@@ -214,7 +214,7 @@ SharkGame.ResourceTable = {
 
     queen: {
         name: '虾皇后',
-        singleName: 'shrimp queen',
+        singleName: '虾皇后',
         color: '#EEA271',
         income: {
             'shrimp': 1,
@@ -225,7 +225,7 @@ SharkGame.ResourceTable = {
 
     berrier: {
         name: '龙虾浆果',
-        singleName: 'lobster berrier',
+        singleName: '龙虾浆果',
         color: '#719188',
         income: {
             'lobster': 0.05
@@ -235,7 +235,7 @@ SharkGame.ResourceTable = {
 
     biologist: {
         name: '海豚生物学家',
-        singleName: 'dolphin biologist',
+        singleName: '海豚生物学家',
         color: '#5C9976',
         income: {
             'dolphin': 0.005
@@ -245,7 +245,7 @@ SharkGame.ResourceTable = {
 
     pit: {
         name: '鳗鱼坑',
-        singleName: 'eel pit',
+        singleName: '鳗鱼坑',
         color: '#3F6E86',
         income: {
             'eel': 0.01
@@ -268,7 +268,7 @@ SharkGame.ResourceTable = {
 
     diver: {
         name: '潜水员鲨鱼',
-        singleName: 'diver shark',
+        singleName: '潜水员鲨鱼',
         color: '#6A74AB',
         income: {
             'crystal': 0.5,
@@ -611,8 +611,8 @@ SharkGame.ResourceTable = {
     },
 
     eggBrooder: {
-        name: 'egg brooders',
-        singleName: 'egg brooder',
+        name: '孵卵器',
+        singleName: '孵卵器',
         color: '836E5F',
         income: {
             octopus: 1,
@@ -625,7 +625,7 @@ SharkGame.ResourceTable = {
 
     science: {
         name: '科学',
-        singleName: 'science',
+        singleName: '科学',
         //desc: "Lifeblood of progress.",
         color: '#BBA4E0',
         value: 100
@@ -635,7 +635,7 @@ SharkGame.ResourceTable = {
 
     fish: {
         name: '鱼',
-        singleName: 'fish',
+        singleName: '鱼',
         //desc: "The hunted.",
         color: '#E3D85B',
         value: 3
@@ -643,7 +643,7 @@ SharkGame.ResourceTable = {
 
     seaApple: {
         name: '海苹果',
-        singleName: 'sea apple',
+        singleName: '海苹果',
         //desc: "Rooted filters.",
         color: '#F0C2C2',
         value: 3

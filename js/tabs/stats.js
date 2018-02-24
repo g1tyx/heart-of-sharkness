@@ -61,7 +61,7 @@ SharkGame.Stats = {
         tabMessageSel.html(message);
 
         var disposeSel = $('#disposeResource');
-        disposeSel.append($('<h3>').html("处理材料"));
+        disposeSel.append($('<h3>').html("处理"));
         s.createDisposeButtons();
 
         var table = s.createIncomeTable();
@@ -78,7 +78,7 @@ SharkGame.Stats = {
         }
         genStats.append($('<p>').html("自从你开始的时间:<br/><span id='gameTime' class='timeDisplay'></span>").addClass("medDesc"));
         if(!firstTime) {
-            genStats.append($('<p>').html("自你从大门进来的时间<br/><span id='runTime' class='timeDisplay'></span>").addClass("medDesc"));
+            genStats.append($('<p>').html("自你从传送门进来的时间<br/><span id='runTime' class='timeDisplay'></span>").addClass("medDesc"));
         }
         genStats.append($('<h3>').html("获得的海洋资源总量"));
         if(!firstTime) {
@@ -135,7 +135,7 @@ SharkGame.Stats = {
                 }
                 var forceSingular = amountToDispose === 1;
                 var disableButton = (resourceAmount < amountToDispose) || (amountToDispose <= 0);
-                var label = "Dispose of " + m.beautify(amountToDispose) + " " + r.getResourceName(k, disableButton, forceSingular);
+                var label = "销毁 " + m.beautify(amountToDispose) + " " + r.getResourceName(k, disableButton, forceSingular);
                 if(amountToDispose <= 0) {
                     label = "Can't dispose any more " + r.getResourceName(k, disableButton, forceSingular);
                 }

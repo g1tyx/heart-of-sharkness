@@ -115,19 +115,19 @@ SharkGame.Gateway = {
 
         // construct the gateway content
         var gatewayContent = $('<div>');
-        gatewayContent.append($('<p>').html("You are a shark in the space between worlds."));
+        gatewayContent.append($('<p>').html("你是一个在世界之间的空间里的鲨鱼。"));
         if(!SharkGame.wonGame) {
-            gatewayContent.append($('<p>').html("It is not clear how you have ended up here, but you remember a bitter defeat.").addClass("medDesc"));
+            gatewayContent.append($('<p>').html("现在还不清楚你是怎么来到这里的，但你记得那次惨败。").addClass("medDesc"));
         }
-        gatewayContent.append($('<p>').html("Something unseen says,").addClass("medDesc"));
+        gatewayContent.append($('<p>').html("一些看不见的东西说,").addClass("medDesc"));
         gatewayContent.append($('<em>').attr("id", "gatewayVoiceMessage").html(g.getVoiceMessage()));
         if(essenceRewarded > 0) {
-            gatewayContent.append($('<p>').html("Entering this place has changed you, granting you <span class='essenceCount'>" + m.beautify(essenceRewarded) + "</span> essence."));
+            gatewayContent.append($('<p>').html("进入这个地方将会改变你，给你 <span class='essenceCount'>" + m.beautify(essenceRewarded) + "</span> 精髓."));
         }
-        gatewayContent.append($('<p>').html("You have <span id='essenceHeldDisplay' class='essenceCount'>" + m.beautify(essenceHeld) + "</span> essence."));
+        gatewayContent.append($('<p>').html("你拥有 <span id='essenceHeldDisplay' class='essenceCount'>" + m.beautify(essenceHeld) + "</span> 精髓."));
         if(numenHeld > 0) {
             var numenName = (numenHeld > 1) ? "numina" : "numen";
-            gatewayContent.append($('<p>').html("You also have <span class='numenCount'>" + m.beautify(numenHeld) + "</span> " + numenName + ", and you radiate divinity."));
+            gatewayContent.append($('<p>').html("You also have <span class='numenCount'>" + m.beautify(numenHeld) + "</span> " + numenName + ", 你散发出神性。"));
         }
         gatewayContent.append($('<p>').attr("id", "gatewayStatusMessage").addClass("medDesc"));
 
@@ -138,10 +138,10 @@ SharkGame.Gateway = {
 
         // add navigation buttons
         var navButtons = $('<div>').addClass("gatewayButtonList");
-        SharkGame.Button.makeButton("backToGateway", "artifacts", navButtons, function() {
+        SharkGame.Button.makeButton("backToGateway", "遗物", navButtons, function() {
             g.switchViews(g.showArtifacts);
         });
-        SharkGame.Button.makeButton("backToGateway", "worlds", navButtons, function() {
+        SharkGame.Button.makeButton("backToGateway", "世界", navButtons, function() {
             g.switchViews(g.showPlanets);
         });
         gatewayContent.append(navButtons);
@@ -152,7 +152,7 @@ SharkGame.Gateway = {
 
     showRunEndInfo: function(containerDiv) {
         var m = SharkGame.Main;
-        containerDiv.append($('<p>').html("<em>Time spent within last ocean:</em><br/>").append(m.formatTime(SharkGame.timestampRunEnd - SharkGame.timestampRunStart)));
+        containerDiv.append($('<p>').html("<em>在最后的海洋里度过的时光:</em><br/>").append(m.formatTime(SharkGame.timestampRunEnd - SharkGame.timestampRunStart)));
     },
 
     showArtifacts: function() {
@@ -164,8 +164,8 @@ SharkGame.Gateway = {
 
         // construct the gateway content
         var gatewayContent = $('<div>');
-        gatewayContent.append($('<p>').html("Your will flows into solid shapes beyond your control.<br>Focus."));
-        gatewayContent.append($('<p>').html("You have <span id='essenceHeldDisplay' class='essenceCount'>" + m.beautify(essenceHeld) + "</span> essence."));
+        gatewayContent.append($('<p>').html("你的意志会流进你无法控制的固体形态。<br>集中精神."));
+        gatewayContent.append($('<p>').html("你拥有 <span id='essenceHeldDisplay' class='essenceCount'>" + m.beautify(essenceHeld) + "</span> 精髓."));
         gatewayContent.append($('<p>').attr("id", "gatewayStatusMessage").addClass("medDesc"));
 
         // show artifact pool
@@ -184,7 +184,7 @@ SharkGame.Gateway = {
 
         // add return to gateway button
         var returnButtonDiv = $('<div>');
-        SharkGame.Button.makeButton("backToGateway", "return to gateway", returnButtonDiv, function() {
+        SharkGame.Button.makeButton("backToGateway", "返回传送门", returnButtonDiv, function() {
             g.switchViews(g.showGateway);
         });
         gatewayContent.append(returnButtonDiv);
@@ -200,7 +200,7 @@ SharkGame.Gateway = {
 
         // construct the gateway content
         var gatewayContent = $('<div>');
-        gatewayContent.append($('<p>').html("Other worlds await."));
+        gatewayContent.append($('<p>').html("其他世界在等待着。"));
 
         // show planet pool
         var planetPool = $('<div>').addClass("gatewayButtonList");
@@ -214,7 +214,7 @@ SharkGame.Gateway = {
 
         // add return to gateway button
         var returnButtonDiv = $('<div>');
-        SharkGame.Button.makeButton("backToGateway", "return to gateway", returnButtonDiv, function() {
+        SharkGame.Button.makeButton("backToGateway", "返回传送门", returnButtonDiv, function() {
             g.switchViews(g.showGateway);
         });
         gatewayContent.append(returnButtonDiv);

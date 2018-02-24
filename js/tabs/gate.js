@@ -66,12 +66,12 @@ SharkGame.Gate = {
             $.each(g.costs, function(k, v) {
                 if(!g.costsMet[k]) {
                     var resourceName = SharkGame.Resources.getResourceName(k);
-                    SharkGame.Button.makeButton("gateCost-" + k, "Insert " + resourceName + " into " + resourceName + " slot", buttonList, SharkGame.Gate.onGateButton);
+                    SharkGame.Button.makeButton("gateCost-" + k, "把 " + resourceName + " 放入 " + resourceName + " 插槽", buttonList, SharkGame.Gate.onGateButton);
                     amountOfSlots++;
                 }
             });
         } else {
-            SharkGame.Button.makeButton("gateEnter", "Enter gate", $('#buttonList'), g.onEnterButton);
+            SharkGame.Button.makeButton("gateEnter", "进入传送门", $('#buttonList'), g.onEnterButton);
         }
 
         var message = g.shouldBeOpen() ? g.messageOpened : (amountOfSlots > 1 ? g.message : g.messageOneSlot);
@@ -100,7 +100,7 @@ SharkGame.Gate = {
             if(g.shouldBeOpen()) {
                 message = g.messageAllPaid;
                 // add enter gate button
-                SharkGame.Button.makeButton("gateEnter", "Enter gate", $('#buttonList'), g.onEnterButton);
+                SharkGame.Button.makeButton("gateEnter", "进入传送门", $('#buttonList'), g.onEnterButton);
             } else {
                 message = g.messagePaid;
             }
