@@ -13,7 +13,7 @@ SharkGame.Recycler = {
         ]
     },
 
-    message: "The recycler allows for the repurposing of any and all of your unwanted materials.<br/><span class='medDesc'>Feed the machines. Feed them.</span>",
+    message: "回收机能让你把不需要的材料回收利用。<br/><span class='medDesc'>喂这机器吧. 快喂它们.</span>",
 
     recyclerInputMessages: [
         "The machines grind and churn.",
@@ -98,7 +98,7 @@ SharkGame.Recycler = {
         var junkAmount = r.getResource("junk");
 
         var junkDisplay = $('#junkDisplay');
-        junkDisplay.html("CONTENTS:<br/><br/>" + m.beautify(junkAmount) + "<br/><br/>RESIDUE");
+        junkDisplay.html("其中有:<br/><br/>" + m.beautify(junkAmount) + "<br/><br/>废料");
     },
 
     updateButtons: function() {
@@ -128,7 +128,7 @@ SharkGame.Recycler = {
 
                 // update input button
                 var disableButton = (resourceAmount < inputAmount) || (inputAmount <= 0);
-                var label = "Recycle ";
+                var label = "回收 ";
                 if(inputAmount > 0) {
                     label += m.beautify(inputAmount) + " ";
                 }
@@ -137,7 +137,7 @@ SharkGame.Recycler = {
 
                 // update output button
                 disableButton = (maxOutputAmount < outputAmount) || (outputAmount <= 0);
-                label = "Convert to ";
+                label = "转化 ";
                 if(outputAmount > 0) {
                     label += m.beautify(outputAmount) + " ";
                 }

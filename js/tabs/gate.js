@@ -11,13 +11,13 @@ SharkGame.Gate = {
         ]
     },
 
-    message: "A foreboding circular structure, closed shut.<br/>There are many slots, and a sign you know to mean 'insert items here'.",
-    messageOneSlot: "A foreboding circular structure, closed shut.<br/>One slot remains.",
-    messageOpened: "A foreboding circular structure, wide open.<br/>The water glows and shimmers within it. A gentle tug pulls at you.",
-    messagePaid: "The slot accepts your donation and ceases to be.",
-    messageCantPay: "The slot spits everything back out. You get the sense it wants more at once.",
-    messageAllPaid: "The last slot closes. The structure opens. The water glows and shimmers within it.<br/>A gentle tug pulls at you.",
-    messageEnter: "You swim through the gate...",
+    message: "一种不祥的圆形结构，紧紧地关闭着.<br/>上面有许多插槽，并在传达一种让你往上面放东西的信号.",
+    messageOneSlot: "一种不祥的圆形结构，紧紧地关闭着.<br/>只剩下一个插槽了.",
+    messageOpened: "一种不祥的圆形结构，打开着.<br/>门里的水闪闪发光，你感到从门里传来微弱的吸力。",
+    messagePaid: "插槽接受了你的给予，并停止运转。",
+    messageCantPay: "插槽把你放进去的东西吐了出来。同时你感到一种“它们想要更多”的信息.",
+    messageAllPaid: "最后一个插槽关闭了。门打开了。门里的水闪闪发光.<br/>你感到从门里传来微弱的吸力",
+    messageEnter: "你游过了这扇门...",
 
     sceneClosedImage: "img/events/misc/scene-gate-closed.png",
     sceneAlmostOpenImage: "img/events/misc/scene-gate-one-slot.png",

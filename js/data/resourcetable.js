@@ -11,8 +11,8 @@ SharkGame.ResourceTable = {
     },
 
     essence: {
-        name: '本质',
-        singleName: 'essence',
+        name: '精髓',
+        singleName: '精髓',
         //desc: "Etheric force, raw and dangerous.",
         color: '#ACE3D1',
         value: -1
@@ -36,8 +36,8 @@ SharkGame.ResourceTable = {
     },
 
     ray: {
-        name: '射线',
-        singleName: '射线',
+        name: '鳐鱼',
+        singleName: '鳐鱼',
         //desc: "Kindred to the sharks.",
         color: '#797CFC',
         income: {
@@ -191,8 +191,8 @@ SharkGame.ResourceTable = {
     },
 
     maker: {
-        name: '射线制造者',
-        singleName: '射线制造者',
+        name: '鳐鱼制造者',
+        singleName: '鳐鱼制造者',
         //desc: "Caretakers of the helpless.",
         color: '#5355ED',
         income: {
@@ -213,8 +213,8 @@ SharkGame.ResourceTable = {
     },
 
     queen: {
-        name: '虾皇后',
-        singleName: '虾皇后',
+        name: '虾后',
+        singleName: '虾后',
         color: '#EEA271',
         income: {
             'shrimp': 1,
@@ -224,8 +224,8 @@ SharkGame.ResourceTable = {
     },
 
     berrier: {
-        name: '龙虾浆果',
-        singleName: '龙虾浆果',
+        name: '龙虾孵卵者',
+        singleName: '龙虾孵卵者',
         color: '#719188',
         income: {
             'lobster': 0.05
@@ -278,8 +278,8 @@ SharkGame.ResourceTable = {
     },
 
     laser: {
-        name: '激光射线',
-        singleName: '激光射线',
+        name: '激光鳐鱼',
+        singleName: '激光鳐鱼',
         //desc: "Destructive forces of creation.",
         color: '#E85A5A',
         income: {
@@ -301,8 +301,8 @@ SharkGame.ResourceTable = {
     },
 
     worker: {
-        name: 'worker shrimp',
-        singleName: 'worker shrimp',
+        name: '虾工',
+        singleName: '虾工',
         color: '#D83902',
         income: {
             'coral': 0.1,
@@ -312,8 +312,8 @@ SharkGame.ResourceTable = {
     },
 
     harvester: {
-        name: 'harvester lobsters',
-        singleName: 'harvester lobster',
+        name: '龙虾收割者',
+        singleName: '龙虾收割者',
         color: '#718493',
         income: {
             'sponge': 0.3,
@@ -323,8 +323,8 @@ SharkGame.ResourceTable = {
     },
 
     philosopher: {
-        name: 'dolphin philosophers',
-        singleName: 'dolphin philosopher',
+        name: '海豚哲学家',
+        singleName: '海豚哲学家',
         color: '#9FBCBF',
         income: {
             'science': 1
@@ -333,8 +333,8 @@ SharkGame.ResourceTable = {
     },
 
     treasurer: {
-        name: 'dolphin treasurers',
-        singleName: 'dolphin treasurer',
+        name: '海豚会计',
+        singleName: '海豚会计',
         color: '#B4DBBC',
         income: {
             'crystal': 2,
@@ -344,8 +344,8 @@ SharkGame.ResourceTable = {
     },
 
     chorus: {
-        name: 'whale chorus',
-        singleName: 'whale chorus',
+        name: '鲸鱼合唱团',
+        singleName: '鲸鱼合唱团',
         color: '#85BBA9',
         income: {
             'essence': 1e-6
@@ -354,8 +354,8 @@ SharkGame.ResourceTable = {
     },
 
     transmuter: {
-        name: 'chimaera transmuters',
-        singleName: 'chimaera transmuter',
+        name: '银鲛转化者',
+        singleName: '银鲛转化者',
         color: '#6A4BA3',
         income: {
             'sharkonium': 1,
@@ -366,8 +366,8 @@ SharkGame.ResourceTable = {
     },
 
     explorer: {
-        name: 'chimaera explorers',
-        singleName: 'chimaera explorer',
+        name: '银鲛探索者',
+        singleName: '银鲛探索者',
         color: '#64685A',
         income: {
             'science': 5,
@@ -377,8 +377,8 @@ SharkGame.ResourceTable = {
     },
 
     collector: {
-        name: 'octopus collectors',
-        singleName: 'octopus collector',
+        name: '章鱼收集者',
+        singleName: '章鱼收集者',
         color: '#1A44D6',
         income: {
             'crystal': 1,
@@ -388,8 +388,8 @@ SharkGame.ResourceTable = {
     },
 
     scavenger: {
-        name: 'octopus scavengers',
-        singleName: 'octopus scavenger',
+        name: '章鱼拾荒者',
+        singleName: '章鱼拾荒者',
         color: '#B43B02',
         income: {
             'sand': 2,
@@ -399,8 +399,8 @@ SharkGame.ResourceTable = {
     },
 
     technician: {
-        name: 'eel technicians',
-        singleName: 'eel technician',
+        name: '鳗鱼科学家',
+        singleName: '鳗鱼科学家',
         color: '#7FB6A3',
         income: {
             'science': 0.8
@@ -409,8 +409,8 @@ SharkGame.ResourceTable = {
     },
 
     sifter: {
-        name: 'eel sifters',
-        singleName: 'eel sifter',
+        name: '鳗鱼探索者',
+        singleName: '鳗鱼探索者',
         color: '#473E21',
         income: {
             'sand': 0.2,
@@ -423,8 +423,8 @@ SharkGame.ResourceTable = {
     // MACHINES
 
     crystalMiner: {
-        name: 'crystal miners',
-        singleName: 'crystal miner',
+        name: '水晶矿机',
+        singleName: '水晶矿机',
         //desc: "Devourers of the lattice.",
         color: '#B2CFCB',
         income: {
@@ -435,8 +435,8 @@ SharkGame.ResourceTable = {
     },
 
     sandDigger: {
-        name: 'sand diggers',
-        singleName: 'sand digger',
+        name: '沙子挖掘机',
+        singleName: '沙子挖掘机',
         //desc: "Consumers of the seabed.",
         color: '#D6CF9F',
         income: {
@@ -447,8 +447,8 @@ SharkGame.ResourceTable = {
     },
 
     autoTransmuter: {
-        name: 'auto-transmuters',
-        singleName: 'auto-transmuter',
+        name: '自动转化机',
+        singleName: '自动转化机',
         //desc: "Mystic processes automated.",
         color: '#B5A7D1',
         income: {
@@ -461,8 +461,8 @@ SharkGame.ResourceTable = {
     },
 
     fishMachine: {
-        name: 'fish machines',
-        singleName: 'fish machine',
+        name: '捕鱼机',
+        singleName: '捕鱼机',
         //desc: "Indiscriminate hunter.",
         color: '#C9C7A7',
         income: {
@@ -473,8 +473,8 @@ SharkGame.ResourceTable = {
     },
 
     skimmer: {
-        name: 'skimmers',
-        singleName: 'skimmer',
+        name: '粉碎机',
+        singleName: '粉碎机',
         color: '#8D4863',
         income: {
             junk: 10,
@@ -486,8 +486,8 @@ SharkGame.ResourceTable = {
     },
 
     purifier: {
-        name: 'purifiers',
-        singleName: 'purifier',
+        name: '净水器',
+        singleName: '净水器',
         color: '#C2D7D0',
         income: {
             tar: -1
@@ -497,8 +497,8 @@ SharkGame.ResourceTable = {
     },
 
     heater: {
-        name: 'heaters',
-        singleName: 'heater',
+        name: '加热器',
+        singleName: '加热器',
         color: '#D13F32',
         income: {
             ice: -10
@@ -508,8 +508,8 @@ SharkGame.ResourceTable = {
     },
 
     spongeFarmer: {
-        name: 'sponge farmers',
-        singleName: 'sponge farmer',
+        name: '海绵种植机',
+        singleName: '海绵种植机',
         color: '#EB9A75',
         income: {
             sponge: 10,
@@ -519,8 +519,8 @@ SharkGame.ResourceTable = {
     },
 
     berrySprayer: {
-        name: 'berry sprayers',
-        singleName: 'berry sprayer',
+        name: '龙虾孵卵机',
+        singleName: '龙虾孵卵机',
         color: '#9B92BB',
         income: {
             lobster: 6
@@ -529,8 +529,8 @@ SharkGame.ResourceTable = {
     },
 
     glassMaker: {
-        name: 'glass makers',
-        singleName: 'glass maker',
+        name: '珊瑚晶制造机',
+        singleName: '珊瑚晶制造机',
         color: '#E39E66',
         income: {
             coralglass: 10,
@@ -541,8 +541,8 @@ SharkGame.ResourceTable = {
     },
 
     silentArchivist: {
-        name: 'silent archivists',
-        singleName: 'silent archivist',
+        name: '档案管理机',
+        singleName: '档案管理机',
         color: '#608B8F',
         income: {
             science: 10,
@@ -552,8 +552,8 @@ SharkGame.ResourceTable = {
     },
 
     tirelessCrafter: {
-        name: 'tireless crafters',
-        singleName: 'tireless crafter',
+        name: '豚素制造器',
+        singleName: '豚素制造器',
         color: '#9AEBCF',
         income: {
             delphinium: 10,
@@ -565,8 +565,8 @@ SharkGame.ResourceTable = {
     },
 
     clamCollector: {
-        name: 'clam collectors',
-        singleName: 'clam collector',
+        name: '采蚌机',
+        singleName: '采蚌机',
         color: '#727887',
         income: {
             clam: 10,
@@ -576,8 +576,8 @@ SharkGame.ResourceTable = {
     },
 
     sprongeSmelter: {
-        name: 'spronge smelters',
-        singleName: 'spronge smelter',
+        name: '棉素冶炼机',
+        singleName: '棉素冶炼机',
         color: '#76614C',
         income: {
             spronge: 30,
@@ -589,8 +589,8 @@ SharkGame.ResourceTable = {
     },
 
     seaScourer: {
-        name: 'sea scourers',
-        singleName: 'sea scourer',
+        name: '污染转化机',
+        singleName: '污染转化机',
         color: '#8E8F91',
         income: {
             tar: -1,
@@ -600,8 +600,8 @@ SharkGame.ResourceTable = {
     },
 
     prostheticPolyp: {
-        name: 'prosthetic polyps',
-        singleName: 'prosthetic polyp',
+        name: '珊瑚制造机',
+        singleName: '珊瑚制造机',
         color: '#A39497',
         income: {
             coral: 30,
@@ -611,8 +611,8 @@ SharkGame.ResourceTable = {
     },
 
     eggBrooder: {
-        name: '孵卵器',
-        singleName: '孵卵器',
+        name: '章鱼孵卵机',
+        singleName: '章鱼孵卵机',
         color: '836E5F',
         income: {
             octopus: 1,
@@ -651,7 +651,7 @@ SharkGame.ResourceTable = {
 
     sponge: {
         name: '海绵',
-        singleName: 'sponge',
+        singleName: '海绵',
         color: '#ED9847',
         income: {
             sponge: 0.0001,
@@ -668,8 +668,8 @@ SharkGame.ResourceTable = {
     },
 
     clam: {
-        name: '蛤蜊',
-        singleName: '蛤蜊',
+        name: '蚌',
+        singleName: '蚌',
         color: '#828FB5',
         value: 3
     },
@@ -704,15 +704,15 @@ SharkGame.ResourceTable = {
     },
 
     coral: {
-        name: 'coral',
-        singleName: 'coral',
+        name: '珊瑚',
+        singleName: '珊瑚',
         color: '#CA354F',
         value: 3
     },
 
     algae: {
-        name: 'algae',
-        singleName: 'algae',
+        name: '海藻',
+        singleName: '海藻',
         color: '#549572',
         value: 0.5
     },
@@ -721,37 +721,37 @@ SharkGame.ResourceTable = {
     // PROCESSED
 
     sharkonium: {
-        name: '鲨鎓',
-        singleName: 'sharkonium',
+        name: '鲨素',
+        singleName: '鲨素',
         //desc: "Progress incarnate.",
         color: '#8D70CC',
         value: 70
     },
 
     coralglass: {
-        name: 'coralglass',
-        singleName: 'coralglass',
+        name: '珊瑚晶',
+        singleName: '珊瑚晶',
         color: '#FDD5B4',
         value: 70
     },
 
     delphinium: {
-        name: 'delphinium',
-        singleName: 'delphinium',
+        name: '豚素',
+        singleName: '豚素',
         color: '#5BD1A8',
         value: 70
     },
 
     spronge: {
-        name: 'spronge',
-        singleName: 'spronge',
+        name: '棉素',
+        singleName: '棉素',
         color: '#A97D53',
         value: 70
     },
 
     junk: {
-        name: 'residue',
-        singleName: 'residue',
+        name: '废料',
+        singleName: '废料',
         //desc: "Industrial potential.",
         color: '#605050',
         value: 1
@@ -761,8 +761,8 @@ SharkGame.ResourceTable = {
     // HARMFUL
 
     tar: {
-        name: 'tar',
-        singleName: 'tar',
+        name: '焦油',
+        singleName: '焦油',
         color: '#3B3B3B',
         income: {
             shark: -0.0001,
@@ -801,8 +801,8 @@ SharkGame.ResourceTable = {
     },
 
     ice: {
-        name: 'ice',
-        singleName: 'ice',
+        name: '寒冰',
+        singleName: '寒冰',
         color: '#E4F1FB',
         income: {
             fish: -0.001,
@@ -832,7 +832,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     frenzy: {
-        name: "Frenzy",
+        name: "混乱",
         disposeMessage: [
             "You bid farewell as your community gets smaller.",
             "Goodbye, faithful workforce. There's plenty of other fish out in the sea.",
@@ -856,7 +856,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     breeders: {
-        name: "Breeders",
+        name: "生产者",
         disposeMessage: [
             "Parenting is hard work anyway.",
             "Overpopulation is a real concern!",
@@ -875,7 +875,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     specialists: {
-        name: "Specialists",
+        name: "转职者",
         disposeMessage: [
             "All that training for nothing. Oh well.",
             "Their equipment isn't salvageable, unfortunately, but that's how these things go. The ocean gives, and the ocean corrodes things away.",
@@ -903,7 +903,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     machines: {
-        name: "Machines",
+        name: "机器",
         disposeMessage: [
             "The stopped machines are left as a home for tinier life.",
             "The machines calculate your actions as inefficient and a danger to productivity.",
@@ -966,7 +966,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     stuff: {
-        name: "Materials",
+        name: "材料",
         disposeMessage: [
             "The stuff is dumped in some random hole in the ocean.",
             "We didn't need that anyway. Right? I think we didn't.",
@@ -985,7 +985,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     processed: {
-        name: "Processed",
+        name: "经加工材料",
         disposeMessage: [
             "Disposed of, very carefully, with lots of currents and plenty of distance.",
             "Industrial waste, coming through.",
@@ -1003,7 +1003,7 @@ SharkGame.ResourceCategories = {
         ]
     },
     harmful: {
-        name: "Harmful",
+        name: "有害物质",
         disposeMessage: [
             "Oh, you'd like that, wouldn't you."
         ],

@@ -6,24 +6,24 @@ $.extend(SharkGame, {
     GAME_NAMES: ["五秒钟鲨鱼",
         "下一个鲨鱼游戏",
         "Next Shark Game: Barkfest",
-        "Sharky Clicker",
-        "Weird Oceans",
+        "点击鲨鱼",
+        "奇异海洋",
         "You Have To Name The Shark Game",
         "Shark A Lark",
         "Bark Shark",
-        "Fin Idle",
-        "Ray of Dreams",
-        "Shark Saver",
+        "鱼鳍挂机",
+        "鳐鱼的梦想",
+        "鲨鱼拯救者",
         "浅滩鲨鱼",
         "鲨鱼的灵魂",
         "Saucy Sharks",
         "Sharkfall",
-        "Heart of Sharkness",
-        "Sharks and Recreation",
+        "鲨鱼之心",
+        "鲨鱼娱乐",
         "Alone in the Shark",
         "Sharkpocalypse",
-        "Shark of Darkness",
-        "Strange Oceans"
+        "黑暗鲨鱼",
+        "奇异海洋"
     ],
     GAME_NAME: null,
     ACTUAL_GAME_NAME: "鲨鱼游戏",
@@ -191,7 +191,7 @@ SharkGame.TitleBar = {
     },
 
     skipLink: {
-        name: "skip",
+        name: "返回世界通道",
         main: true,
         onClick: function() {
             if(SharkGame.Main.isFirstTime()) {  // save people stranded on home world
@@ -200,7 +200,7 @@ SharkGame.TitleBar = {
                     SharkGame.Main.init();
                 }
             } else {
-                if(confirm("Is this world causing you too much trouble? Want to go back to the gateway?")) {
+                if(confirm("这个世界让你感觉到太过于困难了吗? 想要回到世界通道吗?")) {
                     SharkGame.wonGame = false;
                     SharkGame.Main.endGame();
                 }

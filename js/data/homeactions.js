@@ -22,43 +22,43 @@ SharkGame.HomeActions = {
             "吃了1只 凤尾鱼。",
             "吃了1只 鲶鱼.",
             "吃了1只 比目鱼.",
-            "吃了1只 haddock.",
-            "吃了1只 herring.",
-            "吃了1只 mackerel.",
-            "吃了1只 mullet.",
-            "吃了1只 perch.",
-            "吃了1只 pollock.",
-            "吃了1只 salmon.",
-            "吃了1只 sardine.",
-            "吃了1只 sole.",
-            "吃了1只 tilapia.",
-            "吃了1只 trout.",
-            "吃了1只 whitefish.",
-            "吃了1只 bass.",
-            "吃了1只 carp.",
-            "吃了1只 cod.",
-            "吃了1只 halibut.",
-            "吃了1只 mahi mahi.",
-            "吃了1只 monkfish.",
-            "吃了1只 perch.",
-            "吃了1只 snapper.",
-            "吃了1只 bluefish.",
-            "吃了1只 grouper.",
-            "吃了1只 sea bass.",
-            "吃了1只 yellowfin tuna.",
-            "吃了1只 marlin.",
+            "吃了1只 黑线鳕.",
+            "吃了1只 鲱鱼.",
+            "吃了1只 鲭.",
+            "吃了1只 鲻鱼.",
+            "吃了1只 鲈鱼.",
+            "吃了1只 狭鳕.",
+            "吃了1只 鲑鱼.",
+            "吃了1只 沙丁鱼.",
+            "吃了1只 比目鱼.",
+            "吃了1只 罗非鱼.",
+            "吃了1只 鲑鳟鱼.",
+            "吃了1只 白鲑.",
+            "吃了1只 鲈鱼.",
+            "吃了1只 鲤鱼.",
+            "吃了1只 鳕鱼.",
+            "吃了1只 大比目鱼.",
+            "吃了1只 鯕鳅.",
+            "吃了1只 鮟鱼.",
+            "吃了1只 鲈鱼.",
+            "吃了1只 甲鱼.",
+            "吃了1只 跳鱼.",
+            "吃了1只 石斑鱼.",
+            "吃了1只 黑鲈.",
+            "吃了1只 黄鳍金枪鱼.",
+            "吃了1只 枪鱼.",
             "吃了1只 橙色连鳍鲑。",
-            "吃了1只 shark.",
-            "吃了1只 swordfish.",
-            "吃了1只 tilefish.",
-            "吃了1只 tuna."
+            "吃了1只 鲨鱼.",
+            "吃了1只 剑鱼.",
+            "吃了1只 方头鱼.",
+            "吃了1只 金枪鱼."
 
         ],
         helpText: "使用你的天生的鲨鱼实力，找到并捕捉一条鱼。"
     },
 
     'prySponge': {
-        name: "撬块海绵",
+        name: "收集海绵",
         effect: {
             resource: {
                 'sponge': 1
@@ -98,7 +98,7 @@ SharkGame.HomeActions = {
     },
 
     'getClam': {
-        name: "Get clam",
+        name: "捕蚌",
         effect: {
             resource: {
                 'clam': 1
@@ -115,12 +115,12 @@ SharkGame.HomeActions = {
             "Got a hard clam.",
             "Got a manila clam.",
             "Got a soft clam.",
-            "Got an atlantic surf clam.",
+            "Got an 大西洋 surf clam.",
             "Got an ocean quahog.",
             "Got a pacific razor clam.",
             "Got a pismo clam.",
             "Got a geoduck.",
-            "Got an atlantic jackknife clam.",
+            "Got an 大西洋 jackknife clam.",
             "Got a lyrate asiatic hard clam.",
             "Got an ark clam.",
             "Got a nut clam.",
@@ -132,11 +132,11 @@ SharkGame.HomeActions = {
             "Got a peppery furrow shell.",
             "Got a pearl oyster."
         ],
-        helpText: "获取一个蛤。为什么我们现在需要蛤蜊?谁知道呢。"
+        helpText: "获取一个蚌。为什么我们现在需要蚌?谁知道呢。"
     },
 
     'getJellyfish': {
-        name: "Grab jellyfish",
+        name: "抓水母",
         effect: {
             resource: {
                 'jellyfish': 1
@@ -186,7 +186,7 @@ SharkGame.HomeActions = {
     // CONVERSIONS ////////////////////////////////////////////////////////////////////////////////
 
     'seaApplesToScience': {
-        name: "研究海苹果",
+        name: "解剖海苹果",
         effect: {
             resource: {
                 science: 5
@@ -215,7 +215,7 @@ SharkGame.HomeActions = {
     },
 
     'spongeToScience': {
-        name: "Dissect sponge",
+        name: "解剖海绵",
         effect: {
             resource: {
                 science: 5
@@ -240,11 +240,11 @@ SharkGame.HomeActions = {
             "Sponge is now so many shreds. But so much was learned!",
             "The sponge is apparently not a plant. Yet plants feel more sophisticated than these things."
         ],
-        helpText: "Dissect sponges to learn their porous secrets. Science!"
+        helpText: "解剖海绵来了解它们多孔结构的秘密。为了科学!"
     },
 
     'jellyfishToScience': {
-        name: "Dismantle jellyfish",
+        name: "解剖水母",
         effect: {
             resource: {
                 science: 5
@@ -269,11 +269,11 @@ SharkGame.HomeActions = {
             "Well, they turned out just as fragile as they looked.",
             "So interesting!"
         ],
-        helpText: "Examine the goop inside the stinging jellies! Discovery!"
+        helpText: "研究蜇人水母那黏状的内部！发现，探索!"
     },
 
     'pearlConversion': {
-        name: "Convert clam pearls",
+        name: "珍珠转化",
         effect: {
             resource: {
                 crystal: 1
@@ -298,13 +298,13 @@ SharkGame.HomeActions = {
             "Okay, we managed to only use the pearls this time, but we, uh, had to break the clams open pretty roughly.",
             "Pearls to... nope. Clams to crystals. Science is hard."
         ],
-        helpText: "Convert a pearl (and the clam around it) into crystal."
+        helpText: "把珍珠(还有外面的蚌壳)转化成水晶."
     },
 
     // MAKE ADVANCED RESOURCES  ///////////////////////////////////////////////////////////////////////////////
 
     'transmuteSharkonium': {
-        name: "Transmute stuff to sharkonium",
+        name: "转化鲨素",
         effect: {
             resource: {
                 sharkonium: 1
@@ -333,11 +333,11 @@ SharkGame.HomeActions = {
             "The substance that knows no description! It's weird to look at.",
             "The foundation of a modern shark frenzy!"
         ],
-        helpText: "Convert ordinary resources into sharkonium, building material of the future!"
+        helpText: "把普通资源转化成鲨素，未来的建造材料!"
     },
 
     'smeltCoralglass': {
-        name: "Smelt stuff to coralglass",
+        name: "转化珊瑚晶",
         effect: {
             resource: {
                 coralglass: 1
@@ -360,11 +360,11 @@ SharkGame.HomeActions = {
             "The backbo-- the exoskeleton of the crustacean industry!",
             "So fragile. Yet so useful."
         ],
-        helpText: "Smelt resources into coralglass for use in crustacean machines!"
+        helpText: "把其他资源转化成珊瑚晶"
     },
 
     'fuseDelphinium': {
-        name: "Fuse stuff into delphinium",
+        name: "转化豚素",
         effect: {
             resource: {
                 delphinium: 1
@@ -388,11 +388,11 @@ SharkGame.HomeActions = {
             "Delphinium! It's a product!",
             "Delphinium! It... uh, is a thing! That exists!"
         ],
-        helpText: "Fuse valuable resources into delphinium, which is kinda like sharkonium. Except worse."
+        helpText: "将一些资源转化成豚素,豚素有点类似于鲨素。不过更差一些."
     },
 
     'forgeSpronge': {
-        name: "Forge sponge into spronge",
+        name: "转化棉素",
         effect: {
             resource: {
                 spronge: 1
@@ -416,7 +416,7 @@ SharkGame.HomeActions = {
             "Spronge. What a name. I don't think I could name it anything myself. Apart from 'horrifying'.",
             "Sweet fishmas, it's glowing. It's glowing!"
         ],
-        helpText: "Repurpose boring old sponge into spronge, building material of the future."
+        helpText: "把旧海绵转化成棉素，这是未来使用的材料。"
     },
 
     // BUY ANIMALS ////////////////////////////////////////////////////////////////////////////////
@@ -438,18 +438,18 @@ SharkGame.HomeActions = {
             }
         },
         outcomes: [
-            "A bignose 鲨鱼加入了你。",
-            "A blacktip reef 鲨鱼加入了你。",
-            "A blue 鲨鱼加入了你。",
-            "A bull 鲨鱼加入了你。",
-            "A cat 鲨鱼加入了你。",
-            "A crocodile 鲨鱼加入了你。",
-            "A dusky whaler 鲨鱼加入了你。",
-            "A dogfish 加入了你。",
-            "A graceful 鲨鱼加入了你。",
-            "A grey reef 鲨鱼加入了你。",
-            "A goblin 鲨鱼加入了你。",
-            "A hammerhead 鲨鱼加入了你。",
+            "一只大鼻子鲨鱼加入了你。",
+            "一只黑鳍鲨鱼加入了你。",
+            "一只蓝色鲨鱼加入了你。",
+            "一只 bull 鲨鱼加入了你。",
+            "一只 cat 鲨鱼加入了你。",
+            "一只 crocodile 鲨鱼加入了你。",
+            "一只 dusky whaler 鲨鱼加入了你。",
+            "一只 dogfish 加入了你。",
+            "一只 graceful 鲨鱼加入了你。",
+            "一只 grey reef 鲨鱼加入了你。",
+            "一只 goblin 鲨鱼加入了你。",
+            "一只锤头鲨加入了你。",
             "A hardnose 鲨鱼加入了你。",
             "A lemon 鲨鱼加入了你。",
             "A milk 鲨鱼加入了你。",
@@ -470,11 +470,11 @@ SharkGame.HomeActions = {
             "A zebra 鲨鱼加入了你。"
         ],
         multiOutcomes: [
-            "A whole bunch of sharks join you.",
-            "That's a lot of sharks.",
-            "The shark community grows!",
-            "More sharks! MORE SHARKS!",
-            "Sharks for the masses. Mass sharks.",
+            "一大群鲨鱼加入了你的团队.",
+            "这些鲨鱼真是多.",
+            "鲨鱼群落飞速增长!",
+            "更多鲨鱼! 更多！！！",
+            "一大群鲨鱼. 一群大鲨鱼.",
             "A shiver of sharks! No, that's a legit name. Look it up.",
             "A school of sharks!",
             "A shoal of sharks!",
@@ -482,7 +482,7 @@ SharkGame.HomeActions = {
             "A gam of sharks! Yes, that's correct.",
             "A college of sharks! They're a little smarter than a school."
         ],
-        helpText: "Recruit a shark to help catch more fish."
+        helpText: "雇用鲨鱼来帮你抓更多鱼."
     },
 
     'getManta': {
@@ -506,38 +506,38 @@ SharkGame.HomeActions = {
             "A spotted eagle ray 加入了你。",
             "A manta ray 加入了你。",
             "A stingray 加入了你。",
-            "A clownnose ray 加入了你。",
+            "A clownnose 鳐鱼 加入了你。",
             "A bluespotted maskray 加入了你。",
             "A bluntnose stingray 加入了你。",
-            "A oman masked ray 加入了你。",
-            "A bulls-eye electric ray 加入了你。",
-            "A shorttailed electric ray 加入了你。",
-            "A bentfin devil ray 加入了你。",
-            "A lesser electric ray 加入了你。",
-            "A cortez electric ray 加入了你。",
+            "A oman masked 鳐鱼 加入了你。",
+            "A bulls-eye electric 鳐鱼 加入了你。",
+            "A shorttailed electric 鳐鱼 加入了你。",
+            "A bentfin devil 鳐鱼 加入了你。",
+            "A lesser electric 鳐鱼 加入了你。",
+            "A cortez electric 鳐鱼 加入了你。",
             "A feathertail stingray 加入了你。",
-            "A thornback ray 加入了你。",
-            "A giant shovelnose ray 加入了你。",
-            "A pacific cownose ray 加入了你。",
-            "A bluespotted ribbontail ray 加入了你。",
-            "A marbled ribbontail ray 加入了你。",
-            "A blackspotted torpedo ray 加入了你。",
-            "A marbled torpedo ray 加入了你。",
-            "A atlantic torpedo ray 加入了你。",
-            "A panther torpedo ray 加入了你。",
-            "A spotted torpedo ray 加入了你。",
+            "A thornback 鳐鱼 加入了你。",
+            "A giant shovelnose 鳐鱼 加入了你。",
+            "A pacific cownose 鳐鱼 加入了你。",
+            "A bluespotted ribbontail 鳐鱼 加入了你。",
+            "A marbled ribbontail 鳐鱼 加入了你。",
+            "A blackspotted torpedo 鳐鱼 加入了你。",
+            "A marbled torpedo 鳐鱼 加入了你。",
+            "A 大西洋 torpedo 鳐鱼 加入了你。",
+            "A panther torpedo 鳐鱼 加入了你。",
+            "A spotted torpedo 鳐鱼 加入了你。",
             "A ocellated torpedo 加入了你。",
             "A caribbean torpedo 加入了你。",
             "A striped stingaree 加入了你。",
             "A sparesly-spotted stingaree 加入了你。",
             "A kapala stingaree 加入了你。",
             "A common stingaree 加入了你。",
-            "A eastern fiddler ray 加入了你。",
+            "A eastern fiddler 鳐鱼 加入了你。",
             "A bullseye stingray 加入了你。",
             "A round stingray 加入了你。",
             "A yellow stingray 加入了你。",
             "A cortez round stingray 加入了你。",
-            "A porcupine ray 加入了你。",
+            "A porcupine 鳐鱼 加入了你。",
             "A sepia stingaree 加入了你。",
             "A banded stingaree 加入了你。",
             "A spotted stingaree 加入了你。",
@@ -555,7 +555,7 @@ SharkGame.HomeActions = {
             "The sand is just flying everywhere!",
             "So many rays."
         ],
-        helpText: "Hire a ray to help collect fish. They might kick up some sand from the seabed."
+        helpText: "雇佣鳐鱼来帮你收集鱼.它们可能会从海底带来一些沙子."
     },
 
 
@@ -616,11 +616,11 @@ SharkGame.HomeActions = {
             "A cribble of crabs! Okay, no, that one's made up.",
             "So many crabs."
         ],
-        helpText: "Hire a crab to find things that sharks and rays overlook."
+        helpText: "雇佣螃蟹来帮你找到鲨鱼和鳐鱼都没有发现的东西."
     },
 
     'getShrimp': {
-        name: "Acquire shrimp",
+        name: "获取虾",
         effect: {
             resource: {
                 'shrimp': 1
@@ -679,11 +679,11 @@ SharkGame.HomeActions = {
             "How can something so small take up so much space?",
             "Sponge forever!"
         ],
-        helpText: "Convince shrimp to assist you in the gathering of algae, which helps boost sponge production."
+        helpText: "说服虾来帮助你收集海藻，这有助于促进海绵的生产。"
     },
 
     'getLobster': {
-        name: "Gain lobster",
+        name: "获取龙虾",
         effect: {
             resource: {
                 'lobster': 1
@@ -724,11 +724,11 @@ SharkGame.HomeActions = {
             "More lobsters for the snipping and the cutting and the clam grab!",
             "Clam patrol, here we go."
         ],
-        helpText: "Lobster like clams. Will work for clams. Good work. Many clams."
+        helpText: "龙虾喜欢蚌，愿意为了蚌而工作。好好工作，就会有许多蚌"
     },
 
     'getDolphin': {
-        name: "Fetch dolphin",
+        name: "获取海豚",
         effect: {
             resource: {
                 'dolphin': 1
@@ -768,9 +768,9 @@ SharkGame.HomeActions = {
             "A northern right-whale dolphin 加入了你。",
             "A long-snouted spinner dolphin 加入了你。",
             "A long-beaked common dolphin 加入了你。",
-            "An atlantic white sided dolphin 加入了你。",
-            "An atlantic hump-backed dolphin 加入了你。",
-            "An atlantic spotted dolphin 加入了你。"
+            "An 大西洋 white sided dolphin 加入了你。",
+            "An 大西洋 hump-backed dolphin 加入了你。",
+            "An 大西洋 spotted dolphin 加入了你。"
         ],
         multiOutcomes: [
             "A pod of dolphins!",
@@ -780,11 +780,11 @@ SharkGame.HomeActions = {
             "Do we need these guys?",
             "They have to be good for something."
         ],
-        helpText: "Pay a dolphin to help us catch fish. Prepare to put up with whining."
+        helpText: "雇佣海豚帮我们抓鱼。 准备好忍受抱怨吧。"
     },
 
     'getWhale': {
-        name: "Reach whale",
+        name: "说服鲸鱼",
         effect: {
             resource: {
                 'whale': 1
@@ -828,11 +828,11 @@ SharkGame.HomeActions = {
             "The songs are mesmerising.",
             "They might not all eat fish, but they're great at rounding them up."
         ],
-        helpText: "Persuade one of the great whales to help us out. They can round up entire schools."
+        helpText: "说服一只巨大的鲸鱼帮助我们。它能集结整个种群。"
     },
 
     'getEel': {
-        name: "Hire eel",
+        name: "雇佣鳗鱼",
         effect: {
             resource: {
                 'eel': 1
@@ -882,11 +882,11 @@ SharkGame.HomeActions = {
             "The eels increase in number.",
             "More eels happened. Yay."
         ],
-        helpText: "Offer a new home and fish supply to an eel. They can round up fish and sand."
+        helpText: "给鳗鱼提供新的住所和食物。它们可以把鱼和沙子围起来"
     },
 
     'getChimaera': {
-        name: "Procure chimaera",
+        name: "寻找银鲛",
         effect: {
             resource: {
                 'chimaera': 1
@@ -946,11 +946,11 @@ SharkGame.HomeActions = {
             "They aren't sharks, but they feel so familiar.",
             "The long-lost kindred return."
         ],
-        helpText: "Convince a chimaera to hunt in the darker depths for us."
+        helpText: "把银鲛训练成狩猎者，在这深邃黑暗的地方帮助我们。"
     },
 
     'getOctopus': {
-        name: "Employ octopus",
+        name: "雇佣章鱼",
         effect: {
             resource: {
                 'octopus': 1
@@ -989,7 +989,7 @@ SharkGame.HomeActions = {
             "A southern sand octopus 加入了你。",
             "A lobed octopus 加入了你。",
             "A starry night octopus 加入了你。",
-            "A atlantic white-spotted octopus 加入了你。",
+            "A 大西洋 white-spotted octopus 加入了你。",
             "A maori octopus 加入了你。",
             "A mexican four-eyed octopus 加入了你。",
             "A galapagos reef octopus 加入了你。",
@@ -1008,7 +1008,7 @@ SharkGame.HomeActions = {
             "A common octopus 加入了你。",
             "A club pygmy octopus 加入了你。",
             "A star-sucker pygmy octopus 加入了你。",
-            "An atlantic banded octopus 加入了你。"
+            "An 大西洋 banded octopus 加入了你。"
         ],
         multiOutcomes: [
             "Efficiency increases with limb count.",
@@ -1019,13 +1019,13 @@ SharkGame.HomeActions = {
             "One of the new batch tells you to find unity in efficiency.",
             "You could have sworn you saw an octopus among the crowd glinting like metal."
         ],
-        helpText: "Pay an octopus for their efficient clam retrieval services."
+        helpText: "因为章鱼们高效地海蚌搜索工作，我们给它们一些回报。"
     },
 
     // SHARK JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getDiver': {
-        name: "Prepare diver shark",
+        name: "训练潜水员鲨鱼",
         effect: {
             resource: {
                 'diver': 1
@@ -1055,7 +1055,7 @@ SharkGame.HomeActions = {
             "Find the crystals for science!",
             "Deep, dark, scary waters. Good luck, all of you."
         ],
-        helpText: "Let a shark go deep into the darkness for more crystals and whatever else they may find."
+        helpText: "让一条鲨鱼在黑暗中前往更深的海域，去寻找更多的水晶和其他一切能找到的东西。"
     },
 
     'getScientist': {
@@ -1077,9 +1077,9 @@ SharkGame.HomeActions = {
             }
         },
         outcomes: [
-            "Doctor Shark, coming right up!",
+            "鲨鱼博士, 马上就到!",
             "发现科学家鲨鱼！",
-            "After many painful years of study, a shark that has developed excellent skills in making excuses-- er, in science!",
+            "在多年的痛苦学习后, 这只鲨鱼终于培养出了出色的找借口的技能---呃，我是说科学技能!",
             "PhD approved!",
             "Graduation complete!",
             "A new insight drives a new shark to take up the cause of science!"
@@ -1093,7 +1093,7 @@ SharkGame.HomeActions = {
             "Underwater clipboards! No I don't know how that works either!",
             "Careful teeth record the discoveries!"
         ],
-        helpText: "Train a shark in the fine art of research and the science of, well, science."
+        helpText: "在研究及科学的艺术中训练一条鲨鱼."
     },
 
     'getNurse': {
@@ -1117,20 +1117,20 @@ SharkGame.HomeActions = {
             ]
         },
         outcomes: [
-            "A nurse shark is ready!",
-            "Shark manufacturer primed.",
-            "Nurse shark trained.",
-            "Medical exam passed! Nurse shark is go!"
+            "护士鲨已准备就绪!",
+            "鲨鱼制造者向你报道。",
+            "训练一只护士鲨。",
+            "医学考试已通过! 护士鲨蓄势待发!"
         ],
         multiOutcomes: [
-            "More sharks are on the way soon.",
-            "Shark swarm begins!",
-            "There will be no end to the sharks!",
-            "Sharks forever!",
-            "The sharks will never end. The sharks are eternal.",
-            "More sharks to make more sharks to make more sharks..."
+            "更多鲨鱼就要被生产出来了.",
+            "鲨鱼群开始拥挤了!",
+            "鲨鱼的数量不会有尽头!",
+            "鲨鱼永远增长!",
+            "鲨鱼不会停止. 鲨鱼是永恒的.",
+            "更多的鲨鱼会去制造更多鲨鱼再去制造更多鲨鱼..."
         ],
-        helpText: "Remove a shark from fish duty and set them to shark making duty."
+        helpText: "将鲨鱼从捕鱼工作中转移出来，让他们去制造鲨鱼。"
     },
 
     // RAY JOBS ////////////////////////////////////////////////////////////////////////////////
@@ -1169,7 +1169,7 @@ SharkGame.HomeActions = {
             "Ray crystal processing initiative is growing stronger every day!",
             "Welcome to the future! The future is lasers!"
         ],
-        helpText: "Remove a ray from sand detail and let them fuse sand into raw crystal."
+        helpText: "将鳐鱼从集沙工作中转移出来，让它们把沙子转化成水晶。"
     },
 
     'getMaker': {
@@ -1208,13 +1208,13 @@ SharkGame.HomeActions = {
             "Have you ever thought about what the rays wanted? Because this might have been what they wanted after all.",
             "MORE LASER RAYS FOR THE LASER ARMY-- oh. Well, this is good too."
         ],
-        helpText: "Remove a ray from sand business and let them concentrate on making more rays."
+        helpText: "将鳐鱼从集沙工作中转移出来，让它们专注于制造更多鳐鱼。"
     },
 
     // CRAB JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getPlanter': {
-        name: "加速种植螃蟹",
+        name: "训练种植蟹",
         effect: {
             resource: {
                 'planter': 1
@@ -1248,7 +1248,7 @@ SharkGame.HomeActions = {
             "Pat the sand very gently and put kelp in it!",
             "More kelp. The apples. They hunger. They hunger for kelp."
         ],
-        helpText: "Equip a crab with the equipment and training to plant kelp across the ocean bottom."
+        helpText: "给螃蟹穿上设备，并训练它们在海底横向种植海带。"
     },
 
     'getBrood': {
@@ -1288,13 +1288,13 @@ SharkGame.HomeActions = {
             "The broods swell in number. The sharks are uneasy, but the concern soon passes.",
             "Yes. Feed the kelp. Feed it. Feeeeeed it."
         ],
-        helpText: "Meld several crabs into a terrifying, incomprehensible crab-producing brood cluster."
+        helpText: "将一些螃蟹结合成一个可怕的，难以理解的蟹巢，它能生产螃蟹。"
     },
 
     // SHRIMP JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getQueen': {
-        name: "女王皇冠虾",
+        name: "训练虾后",
         effect: {
             resource: {
                 'queen': 1
@@ -1328,11 +1328,11 @@ SharkGame.HomeActions = {
             "Give it time before they start singing about wanting to break free.",
             "Queens for the shrimp colony! Eggs for the egg throne!"
         ],
-        helpText: "Create a shrimp queen to make more shrimp."
+        helpText: "建立一只虾后来生产更多虾"
     },
 
     'getWorker': {
-        name: "指派虾工人",
+        name: "指派虾工",
         effect: {
             resource: {
                 'worker': 1
@@ -1366,13 +1366,13 @@ SharkGame.HomeActions = {
             "The sponge is the life.",
             "Glory to the sponge. Glory to the shrimp mass."
         ],
-        helpText: "Dedicate a shrimp to collecting stuff that isn't algae."
+        helpText: "让一只虾去收集资源，不是海藻。"
     },
 
     // LOBSTER JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getBerrier': {
-        name: "龙虾屏障形成",
+        name: "得到龙虾孵卵者",
         effect: {
             resource: {
                 'berrier': 1
@@ -1404,11 +1404,11 @@ SharkGame.HomeActions = {
             "We aren't running out of volunteers any time soon.",
             "Did you see them fight for this job? Claws everywhere, I tell you!"
         ],
-        helpText: "Dedicate a lobster to egg production. We don't know how it works. Ask the lobsters."
+        helpText: "让龙虾专注于产卵。我们不知道他们是怎么做到的，要问就去问龙虾吧。"
     },
 
     'getHarvester': {
-        name: "火车龙虾收获机",
+        name: "得到龙虾收割者",
         effect: {
             resource: {
                 'harvester': 1
@@ -1440,13 +1440,13 @@ SharkGame.HomeActions = {
             "The lobster tide shall claim the-- wait no you said harvesters. Okay. Adjusting that, then.",
             "These guys are pretty unenthusiastic about everything they do, aren't they."
         ],
-        helpText: "Train a lobster to cut down kelp faster than anything can plant it. Sustainable!"
+        helpText: "训练龙虾比任何生物种植的速度还要快地切割海带。可持续发展！"
     },
 
     // DOLPHIN JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getPhilosopher': {
-        name: "Qualify dolphin philosopher",
+        name: "任命海豚哲学家",
         effect: {
             resource: {
                 'philosopher': 1
@@ -1479,11 +1479,11 @@ SharkGame.HomeActions = {
             "Oh joy. We're encouraging them to talk more.",
             "What's wrong with shark science?!"
         ],
-        helpText: "Determine which of these dolphins is actually smart, and not just repeating empty phrases."
+        helpText: "确定哪些是聪明的海豚，而不是整天重复那些无意义的句子的蠢海豚。"
     },
 
     'getTreasurer': {
-        name: "Promote dolphin treasurer",
+        name: "训练海豚会计",
         effect: {
             resource: {
                 'treasurer': 1
@@ -1516,11 +1516,11 @@ SharkGame.HomeActions = {
             "You're might be playing a dangerous game trusting these guys.",
             "The treasury grows!"
         ],
-        helpText: "Promote a dolphin to a harder job involving interest on precious coral and crystal or something like that."
+        helpText: "让海豚去做一项更难的工作，涉及到珊瑚和水晶或其他东西的利息问题。"
     },
 
     'getBiologist': {
-        name: "Train dolphin biologist",
+        name: "训练海豚生物学家",
         effect: {
             resource: {
                 'biologist': 1
@@ -1553,13 +1553,13 @@ SharkGame.HomeActions = {
             "Smug hedonists, the lot of them!",
             "The dolphin population regretfully grows."
         ],
-        helpText: "Train a dolphin to specialise in biology. Dolphin biology, specifically, and production, apparently."
+        helpText: "训练海豚专攻于生物学。海豚生物学，很显然，会生产许多海豚。"
     },
 
     // WHALE JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getChorus': {
-        name: "Assemble whale chorus",
+        name: "建立鲸鱼合唱团",
         effect: {
             resource: {
                 'chorus': 1
@@ -1585,13 +1585,13 @@ SharkGame.HomeActions = {
             "What purpose does the song have?",
             "Liquid infinity swirls around the grand chorus."
         ],
-        helpText: "Form the singers of the eternal song. Let it flow through this world."
+        helpText: "成为永恒之歌的演唱者。让歌声流过整个世界。"
     },
 
     // EEL JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getPit': {
-        name: "Dig eel pit",
+        name: "挖鳗鱼坑",
         effect: {
             resource: {
                 'pit': 1
@@ -1625,11 +1625,11 @@ SharkGame.HomeActions = {
             "Secret homes!",
             "The eels are content."
         ],
-        helpText: "Find a suitable pit for eels to make more eels."
+        helpText: "给鳗鱼做一个舒适的坑来生产更多鳗鱼。"
     },
 
     'getTechnician': {
-        name: "Teach eel technician",
+        name: "训练鳗鱼科学家",
         effect: {
             resource: {
                 'technician': 1
@@ -1662,11 +1662,11 @@ SharkGame.HomeActions = {
             "Let us not question the nature of eel technical training.",
             "Science progresses!"
         ],
-        helpText: "Instruct an eel in the fine art of shark science."
+        helpText: "指导鳗鱼去研究鲨鱼科学。"
     },
 
     'getSifter': {
-        name: "Train eel sifter",
+        name: "训练鳗鱼探索者",
         effect: {
             resource: {
                 'sifter': 1
@@ -1698,13 +1698,13 @@ SharkGame.HomeActions = {
             "Shifters ready to shift! Wait. No. Hang on.",
             "Sifting the seabed for scores of surprises!"
         ],
-        helpText: "Specialise an eel in finding interesting things on the seabed."
+        helpText: "让鳗鱼专门去寻找海底有意思的事物。"
     },
 
     // CHIMAERA JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getTransmuter': {
-        name: "Induct chimaera transmuter",
+        name: "引导银鲛转化者",
         effect: {
             resource: {
                 'transmuter': 1
@@ -1737,11 +1737,11 @@ SharkGame.HomeActions = {
             "The matter matters.",
             "The immaterial made material."
         ],
-        helpText: "Reveal the mysteries of transmutation to a chimaera."
+        helpText: "向银鲛展示转化的奥秘。"
     },
 
     'getExplorer': {
-        name: "Prepare chimaera explorer",
+        name: "训练银鲛探索者",
         effect: {
             resource: {
                 'explorer': 1
@@ -1774,13 +1774,13 @@ SharkGame.HomeActions = {
             "Ancient riddles for ancient creatures.",
             "Find the truth beneath the waves!"
         ],
-        helpText: "Help prepare a chimaera for exploration to parts unknown. Their efforts will be good for science."
+        helpText: "帮助银鲛了解探索所需的知识。它们所做的努力会对科学有很大的帮助。"
     },
 
     // OCTOPUS JOBS ////////////////////////////////////////////////////////////////////////////////
 
     'getCollector': {
-        name: "Reassign octopus as collector",
+        name: "将章鱼专职成收集者",
         effect: {
             resource: {
                 'collector': 1
@@ -1812,11 +1812,11 @@ SharkGame.HomeActions = {
             "Collectors will begin their thankless harvest.",
             "Collectors will act as instructed."
         ],
-        helpText: "Delegate an octopus to collect crystal and coral."
+        helpText: "委托章鱼收集水晶和珊瑚."
     },
 
     'getScavenger': {
-        name: "Reassign octopus as scavenger",
+        name: "将章鱼专职成拾荒者",
         effect: {
             resource: {
                 'scavenger': 1
@@ -1848,13 +1848,13 @@ SharkGame.HomeActions = {
             "Scavengers will pry the substrate of future progress from the ocean floor.",
             "Scavengers will act as instructed."
         ],
-        helpText: "Delegate an octopus to scavenge sponge and sand."
+        helpText: "委托章鱼去外面捡取海绵和沙子。"
     },
 
     // SHARK MACHINES ////////////////////////////////////////////////////////////////////////////////
 
     'getCrystalMiner': {
-        name: "Build crystal miner",
+        name: "建造水晶矿机",
         effect: {
             resource: {
                 'crystalMiner': 1
@@ -1887,11 +1887,11 @@ SharkGame.HomeActions = {
             "The crystal shall be harvested.",
             "Crystal miners are complete."
         ],
-        helpText: "Construct a machine to automatically harvest crystals efficiently."
+        helpText: "建造一台机器，来自动而高效地获取水晶。"
     },
 
     'getSandDigger': {
-        name: "Build sand digger",
+        name: "建造沙子挖掘机",
         effect: {
             resource: {
                 'sandDigger': 1
@@ -1925,11 +1925,11 @@ SharkGame.HomeActions = {
             "Devour the sands. Consume.",
             "Giant machines blot out our sun."
         ],
-        helpText: "Construct a machine to automatically dig up sand efficiently."
+        helpText: "建造一台机器，来自动而高效地挖掘沙子。"
     },
 
     'getFishMachine': {
-        name: "Build fish machine",
+        name: "建造捕鱼机",
         effect: {
             resource: {
                 fishMachine: 1
@@ -1962,11 +1962,11 @@ SharkGame.HomeActions = {
             "Automated fishing.",
             "The power of many, many sharks, in many, many devices."
         ],
-        helpText: "Construct a machine to automatically gather fish efficiently."
+        helpText: "建造一台机器，来自动而高效地捕鱼。"
     },
 
     'getAutoTransmuter': {
-        name: "Build auto-transmuter",
+        name: "建造自动转化机",
         effect: {
             resource: {
                 'autoTransmuter': 1
@@ -1999,11 +1999,11 @@ SharkGame.HomeActions = {
             "Change is all.",
             "The machines know many secrets, yet cannot speak of them."
         ],
-        helpText: "Construct a machine to automatically transmute sand and crystal to sharkonium."
+        helpText: "建造一台机器，自动把沙子和水晶转化成鲨素。"
     },
 
     'getSkimmer': {
-        name: "Build skimmer",
+        name: "建造粉碎机",
         effect: {
             resource: {
                 'skimmer': 1
@@ -2035,11 +2035,11 @@ SharkGame.HomeActions = {
             "Consumption and production are two halves of the greater whole.",
             "The creations of sharks emerge from a pattern as old as their species."
         ],
-        helpText: "Construct a machine to automatically recycle kelp and sand into residue."
+        helpText: "建造一个机器，自动把资源回收成废料。"
     },
 
     'getPurifier': {
-        name: "Build purifier",
+        name: "建造净水器",
         effect: {
             resource: {
                 'purifier': 1
@@ -2072,11 +2072,11 @@ SharkGame.HomeActions = {
             "The end is not nearly so soon.",
             "Hope."
         ],
-        helpText: "Construct a machine to restore vitality to our increasingly murky waters."
+        helpText: "建造一台机器来恢复我们日益浑浊的水质。"
     },
 
     'getHeater': {
-        name: "Build heater",
+        name: "建造加热器",
         effect: {
             resource: {
                 'heater': 1
@@ -2110,13 +2110,13 @@ SharkGame.HomeActions = {
             "Life returns to the frozen sea.",
             "This world awakens."
         ],
-        helpText: "Construct a machine to combat the advancing ice shelf."
+        helpText: "建造一种能抵御寒冰的机器。"
     },
 
     // CRUSTACEAN MACHINES /////////////////////////////////////////////////////////
 
     'getSpongeFarmer': {
-        name: "Build sponge farmer",
+        name: "建造海绵种植机",
         effect: {
             resource: {
                 'spongeFarmer': 1
@@ -2146,11 +2146,11 @@ SharkGame.HomeActions = {
             "There is something missing compared to our machines. Ours are slightly more menacing, but also more effective.",
             "Who needs this much sponge?"
         ],
-        helpText: "This crustacean machine automatically farms and harvests sponge."
+        helpText: "这种甲壳类机器自动种植和收获海绵。"
     },
 
     'getBerrySprayer': {
-        name: "Build berry sprayer",
+        name: "建造龙虾孵卵机",
         effect: {
             resource: {
                 'berrySprayer': 1
@@ -2181,11 +2181,11 @@ SharkGame.HomeActions = {
             "There is an uneasiness about these machines that fills the sharks with concern.",
             "Why was this machine invented? Are we helping to prepare an army?"
         ],
-        helpText: "This crustacean machine distributes lobster eggs for optimal hatching conditions."
+        helpText: "这种甲壳机器给龙虾的卵分配最佳的孵化条件。"
     },
 
     'getGlassMaker': {
-        name: "Build glass maker",
+        name: "建造珊瑚晶制造机",
         effect: {
             resource: {
                 'glassMaker': 1
@@ -2217,13 +2217,13 @@ SharkGame.HomeActions = {
             "Coralglass. So fragile, so beautiful, yet so durable. They make the machines in their own image.",
             "The fine intricacies of these machines are lost on us, given how much of our technological development involves our mouths."
         ],
-        helpText: "This crustacean machine automatically makes coralglass out of coral and sand through processes we don't fully understand."
+        helpText: "这种甲壳机器自动制造珊瑚晶。"
     },
 
     // DOLPHIN MACHINES /////////////////////////////////////////////////////////
 
     'getSilentArchivist': {
-        name: "Build silent archivist",
+        name: "建造档案管理机",
         effect: {
             resource: {
                 'silentArchivist': 1
@@ -2255,11 +2255,11 @@ SharkGame.HomeActions = {
             "These things are too silent. We aren't sure if they're even on.",
             "Science is nothing without review."
         ],
-        helpText: "This dolphin machine archives, critiques, and catalogues our science."
+        helpText: "这种海豚的档案管理机，评论我们的科研成果，并将其分类写出目录。"
     },
 
     'getTirelessCrafter': {
-        name: "Build tireless crafter",
+        name: "建造豚素制造器",
         effect: {
             resource: {
                 'tirelessCrafter': 1
@@ -2291,13 +2291,13 @@ SharkGame.HomeActions = {
             "Delphinium. We don't understand it. It feels a lot like sharkonium, but warmer.",
             "The complexity of these machines is unwarranted. The dolphins think themselves smarter, but we have simpler, more effective solutions."
         ],
-        helpText: "This dolphin machine creates delphinium. What good that is to us is a mystery. Use it to make their useless machines, I guess?"
+        helpText: "这种海豚机器能制造豚素。不过对于我们它能做什么？这是一个谜。我猜，可能是用它来制造海豚的那些无用的机器？"
     },
 
     // OCTOPUS MACHINES /////////////////////////////////////////////////////////
 
     'getClamCollector': {
-        name: "Build clam collector",
+        name: "制造采蚌机",
         effect: {
             resource: {
                 'clamCollector': 1
@@ -2327,11 +2327,11 @@ SharkGame.HomeActions = {
             "The biomachine expands.",
             "The octopuses tell me, find unity in efficiency. Find peace in automation."
         ],
-        helpText: "This octopus machine collects clams. Simple purpose, simple machine."
+        helpText: "这种章鱼机器收集蚌。有着简单的目的，一个简单的机器。"
     },
 
     'getEggBrooder': {
-        name: "Build egg brooder",
+        name: "建造章鱼孵卵机",
         effect: {
             resource: {
                 'eggBrooder': 1
@@ -2364,11 +2364,11 @@ SharkGame.HomeActions = {
             "The biomachine expands.",
             "The octopuses tell me, find unity in efficiency. Find peace in an optimised generation."
         ],
-        helpText: "This octopus machine broods and incubates octopus eggs."
+        helpText: "这种章鱼机器可以孵出章鱼卵。"
     },
 
     'getSprongeSmelter': {
-        name: "Build spronge smelter",
+        name: "建造棉素冶炼机",
         effect: {
             resource: {
                 'sprongeSmelter': 1
@@ -2398,11 +2398,11 @@ SharkGame.HomeActions = {
             "The biomachine expands.",
             "The octopuses tell me, find unity in efficiency. Find peace in an assured future."
         ],
-        helpText: "This octopus machine imbues sponge with industrial potential. Requires residue for function."
+        helpText: "这种章鱼机器将海绵变得具有工业性。当然需要废料作添加剂。"
     },
 
     'getSeaScourer': {
-        name: "Build sea scourer",
+        name: "建造污染转化机",
         effect: {
             resource: {
                 'seaScourer': 1
@@ -2434,11 +2434,11 @@ SharkGame.HomeActions = {
             "The biomachine expands.",
             "The octopuses tell me, find unity in efficiency. Find peace in the impermanence of mistakes."
         ],
-        helpText: "This octopus machine converts pollution into more useful resources."
+        helpText: "这种章鱼机器将污染转化为有价值的资源。"
     },
 
     'getProstheticPolyp': {
-        name: "Build prosthetic polyp",
+        name: "建造珊瑚制造机",
         effect: {
             resource: {
                 'prostheticPolyp': 1
@@ -2470,7 +2470,7 @@ SharkGame.HomeActions = {
             "The biomachine expands.",
             "The octopuses tell me, find unity in efficiency. Find peace in creation."
         ],
-        helpText: "This octopus machine synthesizes coral faster than an entire colony of polyps ever could."
+        helpText: "这种章鱼机器合成珊瑚的速度比任何一群珊瑚虫都快"
     }
 
 };

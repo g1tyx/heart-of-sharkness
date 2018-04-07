@@ -66,8 +66,8 @@ SharkGame.Settings = {
     autosaveFrequency: {
         // times given in minutes
         defaultSetting: 5,
-        name: "Autosave Frequency",
-        desc: "Number of minutes between autosaves.",
+        name: "自动保存的频率",
+        desc: "每次自动保存间隔的分钟数。",
         show: true,
         options: [
             1,

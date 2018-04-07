@@ -17,10 +17,10 @@ SharkGame.WorldTypes = {
         }
     },
     start: {
-        name: "Home",
-        desc: "You shouldn't be seeing this.",
-        shortDesc: "strange blue",
-        entry: "You enter a familiar blue sea, all your previous knowledge a dim memory.",
+        name: "母星",
+        desc: "你不该看到这个的",
+        shortDesc: "陌生蓝色",
+        entry: "你进入一个熟悉的蓝色海洋，你过去的知识都变成了模糊的记忆。",
         style: "default",
         absentResources: [
             "tar",
@@ -79,10 +79,10 @@ SharkGame.WorldTypes = {
         }
     },
     marine: {
-        name: "Marine",
-        desc: "A serene blue world. Peaceful, beautiful, so close to home.",
-        shortDesc: "strange blue",
-        entry: "You enter a familiar blue sea, all your previous knowledge a dim memory.",
+        name: "海洋星",
+        desc: "一个平静的蓝色星球。宁静而美丽，和家乡如此相似。",
+        shortDesc: "陌生蓝色",
+        entry: "你进入一个熟悉的蓝色海洋，你过去的知识都变成了模糊的记忆。",
         style: "default",
         absentResources: [
             "tar",
@@ -105,10 +105,10 @@ SharkGame.WorldTypes = {
         }
     },
     chaotic: {
-        name: "Chaotic",
-        desc: "A frenetic world, torn by immaterial force.",
-        shortDesc: "swirling teal",
-        entry: "You enter a chaotic fray, with no recollection of your former journey. New creatures charge at you from all directions.",
+        name: "混沌星",
+        desc: "一个疯狂的世界，被无形的力量撕裂。",
+        shortDesc: "旋涡",
+        entry: "你被卷入一场混乱的战斗当中，没有了过去的记忆。新遇到的生物从四面八方向你冲来",
         style: "chaotic",
         absentResources: [
             "tar",
@@ -135,10 +135,10 @@ SharkGame.WorldTypes = {
         }
     },
     haven: {
-        name: "Haven",
-        desc: "An aquamarine world of plenty. So beautiful, yet so vulnerable.",
-        shortDesc: "thriving aquamarine",
-        entry: "Remembering nothing, you find yourself in a beautiful atoll teeming with life. Life will be good here.",
+        name: "富饶星",
+        desc: "一个富饶的海洋世界。如此美丽，却又如此脆弱。",
+        shortDesc: "繁荣美丽",
+        entry: "什么都不记得了，你发现自己置身于一个充满生命的美丽的海洋。这里的生活将会很美好。",
         style: "haven",
         absentResources: [
             "tar",
@@ -161,9 +161,9 @@ SharkGame.WorldTypes = {
         }
     },
     tempestuous: {
-        name: "Tempestuous",
-        desc: "A swirling maelstrom of storms where nothing rests.",
-        shortDesc: "stormy grey",
+        name: "暴雨星",
+        desc: "在暴风雨产生的漩涡当中什么都无法休息。",
+        shortDesc: "暴风灰色",
         entry: "You recall nothing and know only the storms. The unrelenting, restless storms scattering your possessions and allies.",
         style: "tempestuous",
         absentResources: [
@@ -188,10 +188,10 @@ SharkGame.WorldTypes = {
         }
     },
     violent: {
-        name: "Violent",
-        desc: "An ocean close to boiling and choking under sulphuric fumes.",
-        shortDesc: "searing red",
-        entry: "The burning waters sear the last traces of your past experiences from you. From beneath, the vents spew forth a heavy cloud of sand.",
+        name: "狂暴星",
+        desc: "大气中都是硫磺烟雾，海洋接近沸腾，并难以呼吸。。",
+        shortDesc: "灼热红色",
+        entry: "灼热的水把你过去的最后一丝记忆从你身上抹去。在下面，裂口喷出浓重的沙云。",
         style: "violent",
         absentResources: [
             "tar",
@@ -219,10 +219,10 @@ SharkGame.WorldTypes = {
         }
     },
     abandoned: {
-        name: "Abandoned",
-        desc: "A dying world filled with machinery.",
-        shortDesc: "murky dark green",
-        entry: "You do not know who left this world so torn and empty. Was it some predecessor of yours? Was it you yourself?",
+        name: "远古弃星",
+        desc: "星球已被遗弃。这快要灭亡的星球上充满了机械。",
+        shortDesc: "黑暗的深绿色",
+        entry: "你不知道是谁让这个世界如此支离破碎。是你的祖辈吗?或者就是你自己?",
         style: "abandoned",
         absentResources: [
             "ice",
@@ -251,10 +251,10 @@ SharkGame.WorldTypes = {
         }
     },
     shrouded: {
-        name: "Shrouded",
-        desc: "A dark, murky ocean of secrecy and danger.",
-        shortDesc: "dark mysterious",
-        entry: "Blackness. You know only blindness in these dark forsaken waters. Foggy memory leads you to follow a stream of crystals.",
+        name: "黑暗星",
+        desc: "黑暗的海洋下隐藏着秘密，当然还有危险。",
+        shortDesc: "黑暗神秘",
+        entry: "入眼皆是黑暗。 你知道在这被遗弃的海域中有的只有眼前的黑暗。模糊的记忆引导你追寻着水晶的亮光。",
         style: "shrouded",
         absentResources: [
             "tar",
@@ -283,10 +283,10 @@ SharkGame.WorldTypes = {
         }
     },
     frigid: {
-        name: "Frigid",
-        desc: "A cold, chilling ocean freezing slowly to death.",
-        shortDesc: "freezing white",
-        entry: "As you struggle with sudden amnesia, you notice crystals forming in front of you. So cold.",
+        name: "冰霜星",
+        desc: "寒冷的海洋将一切生命都慢慢地冰冻至死。",
+        shortDesc: "冰霜白色",
+        entry: "当你在疑惑自己突然的失忆时，你注意到在你面前形成的晶体。太冷了。",
         style: "frigid",
         absentResources: [
             "tar",

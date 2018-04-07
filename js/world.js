@@ -1,41 +1,41 @@
 SharkGame.WorldModifiers = {
     planetaryIncome: {
-        name: "Planetary Income",
+        name: "行星内资源变化（每秒变化量，受时间海葵影响）",
         apply: function(level, resourceName, amount) {
             var wr = SharkGame.World.worldResources;
             wr[resourceName].income = level * amount;
         }
     },
     planetaryIncomeMultiplier: {
-        name: "Planetary Income Multiplier",
+        name: "行星收入增益（乘级别乘气候等级倍数）",
         apply: function(level, resourceName, amount) {
             var wr = SharkGame.World.worldResources;
             wr[resourceName].incomeMultiplier = level * amount;
         }
     },
     planetaryIncomeReciprocalMultiplier: {
-        name: "Planetary Income Reciprocal Multiplier",
+        name: "行星收入减损（除以级别乘气候等级倍数）",
         apply: function(level, resourceName, amount) {
             var wr = SharkGame.World.worldResources;
             wr[resourceName].incomeMultiplier = (1 / (level * amount));
         }
     },
     planetaryResourceBoost: {
-        name: "Planetary Boost",
+        name: "行星收入增益（乘级别乘气候等级倍数）",
         apply: function(level, resourceName, amount) {
             var wr = SharkGame.World.worldResources;
             wr[resourceName].boostMultiplier = level * amount;
         }
     },
     planetaryResourceReciprocalBoost: {
-        name: "Planetary Reciprocal Boost",
+        name: "行星收入增益（乘级别乘气候等级倍数）",
         apply: function(level, resourceName, amount) {
             var wr = SharkGame.World.worldResources;
             wr[resourceName].boostMultiplier = level * amount;
         }
     },
     planetaryStartingResources: {
-        name: "Planetary Starting Resources",
+        name: "行星内初始资源",
         apply: function(level, resourceName, amount) {
             var bonus = level * amount;
             var res = SharkGame.Resources.getTotalResource(resourceName);

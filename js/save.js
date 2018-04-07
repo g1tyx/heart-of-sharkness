@@ -310,7 +310,7 @@ SharkGame.Save = {
 
                 // acknowledge long time gaps
                 if(secondsElapsed > 3600) {
-                    var notification = "Welcome back! It's been ";
+                    var notification = "欢迎回来! 你离开了 ";
                     var numHours = Math.floor(secondsElapsed / 3600);
                     if(numHours > 24) {
                         var numDays = Math.floor(numHours / 24);
@@ -320,18 +320,18 @@ SharkGame.Save = {
                                 var numMonths = Math.floor(numWeeks / 4);
                                 if(numMonths > 12) {
                                     var numYears = Math.floor(numMonths / 12);
-                                    notification += "almost " + ( numYears === 1 ? "a" : numYears ) + " year" + SharkGame.plural(numYears) + ", thanks for remembering this exists!"
+                                    notification += "将近 " + ( numYears === 1 ? "a" : numYears ) + " 年" + SharkGame.plural(numYears) + ", 感谢你回想起来了这些!"
                                 } else {
-                                    notification += "like " + (numMonths === 1 ? "a" : numMonths ) + " month" + SharkGame.plural(numMonths) + ", it's getting kinda crowded.";
+                                    notification += "差不多 " + (numMonths === 1 ? "a" : numMonths ) + " 月" + SharkGame.plural(numMonths) + ", 资源都多得快堆不下了.";
                                 }
                             } else {
-                                notification += "about " + (numWeeks === 1 ? "a" : numWeeks) + " week" + SharkGame.plural(numWeeks) + ", you were gone a while!";
+                                notification += "大概 " + (numWeeks === 1 ? "a" : numWeeks) + " 周" + SharkGame.plural(numWeeks) + ", 你离开了挺长一段时间!";
                             }
                         } else {
-                            notification += (numDays === 1 ? "a" : numDays ) + " day" + SharkGame.plural(numDays) + ", and look at all the stuff you have now!";
+                            notification += (numDays === 1 ? "a" : numDays ) + " 天" + SharkGame.plural(numDays) + ", 现在来看看你拥有的资源吧!";
                         }
                     } else {
-                        notification += (numHours === 1 ? "an" : numHours ) + " hour" + SharkGame.plural(numHours) + " since you were seen around here!";
+                        notification += (numHours === 1 ? "an" : numHours ) + " 小时" + SharkGame.plural(numHours) + " !";
                     }
                     SharkGame.Log.addMessage(notification);
                 }
@@ -347,7 +347,7 @@ SharkGame.Save = {
         try {
             saveData = ascii85.decode(data);
         } catch(err) {
-            SharkGame.Log.addError("That's not encoded properly. Are you sure that's the full save export string?");
+            SharkGame.Log.addError("这不是一个正确的存档码，你确定把全部的存档代码都粘贴上来了吗?");
         }
         // load the game from this save data string
         try {

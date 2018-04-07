@@ -146,7 +146,7 @@ SharkGame.Gateway = {
         });
         gatewayContent.append(navButtons);
 
-        m.showPane("GATEWAY", gatewayContent, true, 500, true);
+        m.showPane("世界通道", gatewayContent, true, 500, true);
         g.transitioning = false;
     },
 
@@ -189,7 +189,7 @@ SharkGame.Gateway = {
         });
         gatewayContent.append(returnButtonDiv);
 
-        m.showPane("ARTIFACTS", gatewayContent, true, 500, true);
+        m.showPane("遗物", gatewayContent, true, 500, true);
         g.transitioning = false;
     },
 
@@ -239,7 +239,7 @@ SharkGame.Gateway = {
 
         // construct the gateway content
         var gatewayContent = $('<div>');
-        gatewayContent.append($('<p>').html("Travel to the " + selectedWorldData.name + " World?"));
+        gatewayContent.append($('<p>').html("旅行到 " + selectedWorldData.name + " 世界?"));
 
         // add world image
         var spritename = "planets/" + g.selectedWorld;
@@ -257,7 +257,7 @@ SharkGame.Gateway = {
 
         // add confirm button
         var confirmButtonDiv = $('<div>');
-        SharkGame.Button.makeButton("progress", "proceed", confirmButtonDiv, function() {
+        SharkGame.Button.makeButton("progress", "继续", confirmButtonDiv, function() {
             // kick back to main to start up the game again
             SharkGame.World.worldType = g.selectedWorld;
             SharkGame.World.planetLevel = planetLevel;
@@ -268,12 +268,12 @@ SharkGame.Gateway = {
 
         // add return to planets button
         var returnButtonDiv = $('<div>');
-        SharkGame.Button.makeButton("backToGateway", "reconsider", returnButtonDiv, function() {
+        SharkGame.Button.makeButton("backToGateway", "重新考虑", returnButtonDiv, function() {
             g.switchViews(g.showPlanets);
         });
         gatewayContent.append(returnButtonDiv);
 
-        m.showPane("CONFIRM", gatewayContent, true, 500, true);
+        m.showPane("确认", gatewayContent, true, 500, true);
         g.transitioning = false;
     },
 
@@ -345,9 +345,9 @@ SharkGame.Gateway = {
             artifactData.level++;
             var gatewayStatusMessageSel = $('#gatewayStatusMessage');
             if(artifactData.level >= artifactData.max) {
-                gatewayStatusMessageSel.html("You reach the limit of the " + artifactData.name + ". You cannot improve it further.");
+                gatewayStatusMessageSel.html("你到达了 " + artifactData.name + ". 的上限，不能再升级了.");
             } else {
-                gatewayStatusMessageSel.html("Your will crystallises into the " + artifactData.name + ", at power " + artifactData.level + ".");
+                gatewayStatusMessageSel.html("你将精髓投入 " + artifactData.name + ", 升至级别 " + artifactData.level + ".");
             }
             $('#essenceHeldDisplay').html(SharkGame.Main.beautify(SharkGame.Resources.getResource("essence")));
         }
@@ -376,7 +376,7 @@ SharkGame.Gateway = {
                     "<br>" + artifactData.desc +
                     "<br><br><span class='medDesc'>" + artifactData.flavour + "</span><br>";
                 if(!maxedOut) {
-                    label += "</span><br>Cost: <span class='essenceCountBrighter'>" + m.beautify(cost) + "</span> essence";
+                    label += "</span><br>消耗: <span class='essenceCountBrighter'>" + m.beautify(cost) + "</span> 精髓";
                 }
                 button.prop("disabled", !enableButton).html(label);
 
@@ -439,7 +439,7 @@ SharkGame.Gateway = {
                 });
                 var deeperPlanetData = SharkGame.WorldTypes[planetData.type];
                 var label = deeperPlanetData.name +
-                    "<br><span class='medDesc'>( Climate Level " + m.beautify(planetLevel) + " )</span>" +
+                    "<br><span class='medDesc'>( 气候等级 " + m.beautify(planetLevel) + " )</span>" +
                     "<br>" + deeperPlanetData.desc;
 
                 buttonSel.html(label);
@@ -525,7 +525,7 @@ SharkGame.Gateway = {
         if(knownAttributeMax > 0) {
             var totalAttributes = _.size(worldData.modifiers);
             var ratio = (totalAttributes === 0) ? 1 : Math.min(1, knownAttributeMax / totalAttributes);
-            contentDiv.append($('<p>').html("Known modifiers (" + (Math.floor(ratio * 100)) + "%):"));
+            contentDiv.append($('<p>').html("已知世界类型 (" + (Math.floor(ratio * 100)) + "%):"));
             var modifierList = $('<ul>').addClass("gatewayPropertyList");
             var upperLimit = Math.min(knownAttributeMax, totalAttributes);
             for(var i = 0; i < upperLimit; i++) {
@@ -547,7 +547,7 @@ SharkGame.Gateway = {
             if(bonusPoints > 0) {
                 var gateSlots = _.size(worldData.gateCosts);
                 var gateRatio = Math.min(1, bonusPoints / gateSlots);
-                contentDiv.append($('<p>').html("Known gate requirements (" + (Math.floor(gateRatio * 100)) + "%):"));
+                contentDiv.append($('<p>').html("已知世界门需求 (" + (Math.floor(gateRatio * 100)) + "%):"));
                 var slotLimit = Math.min(bonusPoints, gateSlots);
                 var gateList = $('<ul>').addClass("gatewayPropertyList");
                 var gateKeySet = _.keys(worldData.gateCosts);
@@ -560,7 +560,7 @@ SharkGame.Gateway = {
                 contentDiv.append(gateList);
                 var totalBannedResources = _.size(worldData.absentResources);
                 var bannedRatio = Math.min(1, bonusPoints / totalBannedResources);
-                contentDiv.append($('<p>').html("Known absences (" + (Math.floor(bannedRatio * 100)) + "%):"));
+                contentDiv.append($('<p>').html("已知缺少 (" + (Math.floor(bannedRatio * 100)) + "%):"));
                 var bannedLimit = Math.min(bonusPoints, totalBannedResources);
                 var bannedList = $('<ul>').addClass("gatewayPropertyList");
                 for(var i = 0; i < bannedLimit; i++) {
@@ -591,19 +591,19 @@ SharkGame.Gateway.Messages = {
     essenceBased: [
         {
             max: 1, messages: [
-            "Hello, newcomer.",
-            "Ah. Welcome, new one.",
-            "Your journey has only just begun.",
-            "Welcome to the end of the beginning."
+            "你好啊，新人.",
+            "啊. 欢迎你, 新人.",
+            "你的旅途才刚刚开始。",
+            "欢迎来到你初始阶段的末尾之处。"
         ]
         },
         {
             min: 2, max: 10, messages: [
-            "Your aptitude grows, I see.",
-            "Your presence is weak, but it grows stronger.",
-            "What new sights have you seen in these journeys?",
-            "How are you finding your voyage?",
-            "Have you noticed how few can follow you through the gates?"
+            "我看到了，你的才能正在增长",
+            "你现在还很弱小，但正在慢慢变强。",
+            "你在这次旅途中看到什么新东西了吗?",
+            "你在旅程中发现了什么?",
+            "你有注意到只有很少生物能跟着你穿过大门吗?"
         ]
         },
         {
@@ -717,18 +717,18 @@ SharkGame.Gateway.Messages = {
         "One more try, perhaps?"
     ],
     generic: [
-        "There is no warmth or cold here. Only numbness.",
-        "What do you seek?",
+        "这里没有温暖与寒冷。只有麻木。",
+        "你在寻找着什么?",
         "We are on the edge of infinity, peering into a boundless sea of potential.",
-        "You may not see me. Do not worry. I can see you.",
-        "What am I? Oh, it is not so important. Not so soon.",
-        "Is this the dream of a shark between worlds, or are the worlds a dream and this place your reality?",
-        "A crossroads. Decisions. Decisions that cannot be shaken so lightly.",
+        "你可能看不见我. 不过不要担心. 我是可以看见你的.",
+        "我是谁? 噢，这并不重要.不要这么着急.",
+        "这是世界上鲨鱼的梦想？还是这是世界的梦想，反映在鲨鱼的身上？",
+        "你位于一个十字路口. 做出抉择吧. 做出不能被轻易动摇的抉择.",
         "There are such sights to behold for the ones who can see here.",
-        "You are to the ocean what we are to the pathways.",
+        "你所面对的大海是我们前方的一条小径。",
         "You swim through liquid eternity. You are now, always, and forever.",
-        "The prodigal shark returns.",
-        "Your constant drive to continue fuels your capacity to overcome.",
-        "There is no space in this universe you cannot make your own."
+        "慷慨的鲨鱼回来了.",
+        "你不断前进来提高你克服困难的能力。",
+        "这个宇宙中没有什么你不能解决."
     ]
 };

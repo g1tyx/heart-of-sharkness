@@ -35,9 +35,9 @@ SharkGame.ArtifactUtil = {
 
 SharkGame.Artifacts = {
     permanentMultiplier: {
-        name: "Time Anemone",
-        desc: "Applies a multiplier to all income.",
-        flavour: "As creatures dwell within the sea, so too do creature dwell within causality.",
+        name: "时间海葵",
+        desc: "所有资源产量翻倍",
+        flavour: "生物居住在海洋中，它们也居住在因果当中。",
         max: 5,
         cost: function(level) {
             return Math.floor(Math.pow(10, level + 1));
@@ -47,9 +47,9 @@ SharkGame.Artifacts = {
         }
     },
     planetTerraformer: {
-        name: "World Shaper",
-        desc: "Reduce the severity of planet climates.",
-        flavour: "Intelligence is not changing to fit an environment, but changing the environment to fit you.",
+        name: "行星塑造",
+        desc: "减弱行星气候的危害性",
+        flavour: "智慧不仅仅是改变自身来适应环境，能也改变环境来适应你。",
         max: 10,
         cost: function(level) {
             return Math.floor(Math.pow(4, level + 1));
@@ -58,9 +58,9 @@ SharkGame.Artifacts = {
         // check SharkGame.World.getTerraformMultiplier
     },
     gateCostReducer: {
-        name: "Gate Controller",
-        desc: "Reduces the cost requirements of gates.",
-        flavour: "Power over the unknown can only reach so far.",
+        name: "世界门控制者",
+        desc: "减少世界门的需求.",
+        flavour: "对未知的力量只能到达这么远。",
         max: 10,
         cost: function(level) {
             return Math.floor(Math.pow(3, level + 1));
@@ -69,9 +69,9 @@ SharkGame.Artifacts = {
         // check SharkGame.World.getGateCostMultiplier
     },
     planetScanner: {
-        name: "Distant Foresight",
-        desc: "Reveals properties of worlds before travelling to them.",
-        flavour: "Knowledge may not change destiny, but it may divert it.",
+        name: "远见",
+        desc: "在世界旅行前揭示其他世界的特性。",
+        flavour: "知识可能不会改变命运，但却能转移命运。",
         max: 15,
         cost: function(level) {
             return Math.floor(Math.pow(1.5, level + 1));
@@ -80,9 +80,9 @@ SharkGame.Artifacts = {
         // check SharkGame.Gateway.getMaxWorldQualitiesToShow
     },
     sharkMigrator: {
-        name: "Shark Migrator",
-        desc: "Bring some sharks with you to the next world.",
-        flavour: "Essence forges a barrier. Sharks are fragile between worlds.",
+        name: "鲨鱼迁移",
+        desc: "当你去下一个世界的时候，带走一些鲨鱼。",
+        flavour: "精髓制造了一个屏障。鲨鱼在世界之间是脆弱的。",
         max: 10,
         required: ["shark"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -91,9 +91,9 @@ SharkGame.Artifacts = {
         }
     },
     rayMigrator: {
-        name: "Ray Migrator",
-        desc: "Bring some rays with you to the next world.",
-        flavour: "The gateway has no sand to hide in.",
+        name: "鳐鱼迁移",
+        desc: "当你去下一个世界的时候，带走一些鳐鱼。",
+        flavour: "世界之门无法掩藏沙子",
         max: 10,
         required: ["ray"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -102,9 +102,9 @@ SharkGame.Artifacts = {
         }
     },
     crabMigrator: {
-        name: "Crab Migrator",
-        desc: "Bring some crabs with you to the next world.",
-        flavour: "Essence-refined shells to keep the crabs alive.",
+        name: "螃蟹移居",
+        desc: "当你去下一个世界的时候，带走一些螃蟹。",
+        flavour: "用精练的壳来保持螃蟹的活力。",
         max: 10,
         required: ["crab"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -113,9 +113,9 @@ SharkGame.Artifacts = {
         }
     },
     shrimpMigrator: {
-        name: "Shrimp Migrator",
-        desc: "Bring some shrimp with you to the next world.",
-        flavour: "The hive produces a new hive.",
+        name: "虾移居",
+        desc: "当你去下一个世界的时候，带走一些虾。",
+        flavour: "虾产生新的虾。",
         max: 10,
         required: ["shrimp"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -124,9 +124,9 @@ SharkGame.Artifacts = {
         }
     },
     lobsterMigrator: {
-        name: "Lobster Migrator",
-        desc: "Bring some lobsters with you to the next world.",
-        flavour: "Relaxing in the astral seas.",
+        name: "龙虾移居",
+        desc: "当你去下一个世界的时候，带走一些龙虾。",
+        flavour: "在星海中放松",
         max: 10,
         required: ["lobster"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -135,9 +135,9 @@ SharkGame.Artifacts = {
         }
     },
     dolphinMigrator: {
-        name: "Dolphin Migrator",
-        desc: "Bring some dolphins with you to the next world.",
-        flavour: "They will find this transportation strangely familiar.",
+        name: "海豚移居",
+        desc: "当你去下一个世界的时候，带走一些海豚。",
+        flavour: "他们会发现这种通行方式非常熟悉。",
         max: 10,
         required: ["dolphin"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -146,8 +146,8 @@ SharkGame.Artifacts = {
         }
     },
     whaleMigrator: {
-        name: "Whale Migrator",
-        desc: "Bring some whales with you to the next world.",
+        name: "鲸鱼移居",
+        desc: "当你去下一个世界的时候，带走一些鲸鱼。",
         flavour: "They need no protection, only persuasion.",
         max: 10,
         required: ["whale"],
@@ -157,9 +157,9 @@ SharkGame.Artifacts = {
         }
     },
     eelMigrator: {
-        name: "Eel Migrator",
-        desc: "Bring some eels with you to the next world.",
-        flavour: "Essence tunnels for them to slide into a new domain.",
+        name: "鳗鱼移居",
+        desc: "当你去下一个世界的时候，带走一些鳗鱼。",
+        flavour: "精髓打开的隧道让他们进入一个新的领域。",
         max: 10,
         required: ["eel"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -168,9 +168,9 @@ SharkGame.Artifacts = {
         }
     },
     chimaeraMigrator: {
-        name: "Chimaera Migrator",
-        desc: "Bring some chimaeras with you to the next world.",
-        flavour: "The light is unbearable. Essence dulls the brightness.",
+        name: "银鲛移居",
+        desc: "当你去下一个世界的时候，带走一些银鲛。",
+        flavour: "光线是难以忍受的。精髓的亮度都变弱了。",
         max: 10,
         required: ["chimaera"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -179,9 +179,9 @@ SharkGame.Artifacts = {
         }
     },
     octopusMigrator: {
-        name: "Octopus Migrator",
-        desc: "Bring some octopuses with you to the next world.",
-        flavour: "The gateway defies reason. It is uncomfortable to the rational mind.",
+        name: "章鱼移居",
+        desc: "当你去下一个世界的时候，带走一些章鱼。",
+        flavour: "世界之门挑战了理性，这对理性的头脑来说是不舒服的。",
         max: 10,
         required: ["octopus"],
         cost: SharkGame.ArtifactUtil.migratorCost,
@@ -190,9 +190,9 @@ SharkGame.Artifacts = {
         }
     },
     sharkTotem: {
-        name: "Totem of Shark",
-        desc: "Increase the effectiveness of sharks and their roles.",
-        flavour: "To hunt. To catch. To win.",
+        name: "鲨鱼图腾",
+        desc: "增加所有种类鲨鱼的效率。",
+        flavour: "去狩猎. 去捕捉. 去赢.",
         max: 10,
         required: ["shark"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -201,9 +201,9 @@ SharkGame.Artifacts = {
         }
     },
     rayTotem: {
-        name: "Totem of Ray",
-        desc: "Increase the effectiveness of rays and their roles.",
-        flavour: "Flying across the ocean in grace and serenity.",
+        name: "鳐鱼图腾",
+        desc: "增加所有种类鳐鱼的效率。",
+        flavour: "在优雅和宁静中跨越海洋。",
         max: 10,
         required: ["ray"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -212,9 +212,9 @@ SharkGame.Artifacts = {
         }
     },
     crabTotem: {
-        name: "Totem of Crab",
-        desc: "Increase the effectiveness of crabs and their roles.",
-        flavour: "No stone left unturned.",
+        name: "螃蟹图腾",
+        desc: "增加所有种类螃蟹的效率。",
+        flavour: "没有不被转化的石头",
         max: 10,
         required: ["crab"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -223,9 +223,9 @@ SharkGame.Artifacts = {
         }
     },
     shrimpTotem: {
-        name: "Totem of Shrimp",
-        desc: "Increase the effectiveness of shrimp and their roles.",
-        flavour: "The hive mind awakens.",
+        name: "虾图腾",
+        desc: "增加所有种类虾的效率。",
+        flavour: "蜂群思维唤醒。",
         max: 10,
         required: ["shrimp"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -234,9 +234,9 @@ SharkGame.Artifacts = {
         }
     },
     lobsterTotem: {
-        name: "Totem of Lobster",
-        desc: "Increase the effectiveness of lobster and their roles.",
-        flavour: "The seabed is a priceless treasure.",
+        name: "龙虾图腾",
+        desc: "增加所有种类龙虾的效率。",
+        flavour: "海床就是无价之宝。",
         max: 10,
         required: ["lobster"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -245,9 +245,9 @@ SharkGame.Artifacts = {
         }
     },
     dolphinTotem: {
-        name: "Totem of Dolphin",
-        desc: "Increase the effectiveness of dolphins and their roles.",
-        flavour: "Exiles of a greater threat.",
+        name: "海豚图腾",
+        desc: "增加所有种类海豚的效率。",
+        flavour: "有巨大威胁的被流放者",
         max: 10,
         required: ["dolphin"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -256,9 +256,9 @@ SharkGame.Artifacts = {
         }
     },
     whaleTotem: {
-        name: "Totem of Whale",
-        desc: "Increase the effectiveness of whales.",
-        flavour: "Keepers of song and mystery.",
+        name: "鲸鱼图腾",
+        desc: "增加鲸鱼的效率。",
+        flavour: "歌谣和秘密的守护者",
         max: 10,
         required: ["whale"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -267,9 +267,9 @@ SharkGame.Artifacts = {
         }
     },
     eelTotem: {
-        name: "Totem of Eel",
-        desc: "Increase the effectiveness of eels and their roles.",
-        flavour: "Snaking elegance, talented attendants.",
+        name: "鳗鱼图腾",
+        desc: "增加所有种类鳗鱼的效率。",
+        flavour: "典雅蛇形, 才华横溢.",
         max: 10,
         required: ["eel"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -278,9 +278,9 @@ SharkGame.Artifacts = {
         }
     },
     chimaeraTotem: {
-        name: "Totem of Chimaera",
-        desc: "Increase the effectiveness of chimaeras and their roles.",
-        flavour: "The prodigal descendants return.",
+        name: "银鲛图腾",
+        desc: "增加所有种类银鲛的效率。",
+        flavour: "浪子的后代返回了。",
         max: 10,
         required: ["chimaera"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -289,9 +289,9 @@ SharkGame.Artifacts = {
         }
     },
     octopusTotem: {
-        name: "Totem of Octopus",
-        desc: "Increase the effectiveness of octopuses and their roles.",
-        flavour: "The cold, rational response is to maximise rewards.",
+        name: "章鱼图腾",
+        desc: "增加所有种类章鱼的效率。",
+        flavour: "冷静、理性的回应直达最大化回报。",
         max: 10,
         required: ["octopus"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -300,9 +300,9 @@ SharkGame.Artifacts = {
         }
     },
     progressTotem: {
-        name: "Totem of Progress",
-        desc: "Increase the effectiveness of shark machines.",
-        flavour: "Progress can be slowed, but it can never be stopped.",
+        name: "发展图腾",
+        desc: "增加鲨鱼机器的效率。",
+        flavour: "进步可以放缓，但绝不能停止。",
         max: 10,
         cost: SharkGame.ArtifactUtil.totemCost,
         effect: function(level) {
@@ -310,9 +310,9 @@ SharkGame.Artifacts = {
         }
     },
     carapaceTotem: {
-        name: "Totem of Carapace",
-        desc: "Increase the effectiveness of crustacean machines.",
-        flavour: "The shelled machines are slow, but clean.",
+        name: "甲壳图腾",
+        desc: "提高甲壳机器的效率",
+        flavour: "甲壳机器生产较慢，但胜在清洁。",
         max: 10,
         required: ["shrimp", "lobster"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -321,9 +321,9 @@ SharkGame.Artifacts = {
         }
     },
     inspirationTotem: {
-        name: "Totem of Inspiration",
-        desc: "Increase the effectiveness of cetacean machines.",
-        flavour: "Dreams of a former glory.",
+        name: "灵感图腾",
+        desc: "增加海豚机器的效率",
+        flavour: "昔日辉煌的梦想。",
         max: 10,
         required: ["dolphin"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -332,9 +332,9 @@ SharkGame.Artifacts = {
         }
     },
     industryTotem: {
-        name: "Totem of Industry",
-        desc: "Increase the effectiveness of cephalopod machines.",
-        flavour: "Find unity in efficiency. Seek octal rationalities.",
+        name: "工业图腾",
+        desc: "增加章鱼机器的效率",
+        flavour: "找到效率上的统一性。寻求八进制合理性。",
         max: 10,
         required: ["octopus"],
         cost: SharkGame.ArtifactUtil.totemCost,
@@ -343,9 +343,9 @@ SharkGame.Artifacts = {
         }
     },
     wardingTotem: {
-        name: "Totem of Warding",
-        desc: "Reduce the adverse effects of harmful materials.",
-        flavour: "The end is inevitable, but the wait can be lengthened.",
+        name: "守护图腾",
+        desc: "减少有害物质的不良影响",
+        flavour: "结束是不可避免的，但等待可以延长。",
         max: 10,
         required: ["tar", "ice"],
         cost: SharkGame.ArtifactUtil.totemCost,

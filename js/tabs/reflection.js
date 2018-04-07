@@ -79,7 +79,7 @@ SharkGame.Reflection = {
             }
         });
         if($('#artifactList > div').length === 0) {
-            listSel.append("<p><em>You have no artifacts to show.</em></p>");
+            listSel.append("<p><em>你没有任何遗物.</em></p>");
         }
     }
 };

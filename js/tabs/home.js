@@ -24,141 +24,141 @@ SharkGame.Home = {
         },
         {
             unlock: {resource: {fish: 15}},
-            message: "有些射线飘过去了。<br>&nbsp"
+            message: "有些鳐鱼飘过去了。<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 1, ray: 1}},
-            message: "You have quite the group going now.<br>&nbsp"
+            message: "你们现在有点团队的样子了.<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 4, ray: 4}},
-            message: "Some curious crabs come over.<br>&nbsp"
+            message: "一些好奇的螃蟹过来了.<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 1, ray: 1, crab: 1}},
-            message: "Your new tribe is at your command!<br>&nbsp"
+            message: "你新组建的部落由你来领导!<br>&nbsp"
         },
         {
             unlock: {resource: {shark: 1, crystal: 10}},
-            message: "The crystals are shiny. Some sharks stare at them curiously.<br>&nbsp"
+            message: "这些水晶很耀眼. 一些鲨鱼好奇地盯着它们.<br>&nbsp"
         },
         {
             unlock: {resource: {scientist: 1}},
-            message: "The science sharks swim in their own school.<br>&nbsp"
+            message: "科学家鲨鱼在它们的学校中游动着.<br>&nbsp"
         },
         {
             unlock: {upgrade: ["crystalContainer"]},
-            message: "More discoveries are needed.<br>&nbsp"
+            message: "需要更多的发现.<br>&nbsp"
         },
         {
             unlock: {resource: {nurse: 1}},
-            message: "The shark community grows with time.<br>&nbsp"
+            message: "鲨鱼的数量正在随着时间流逝而增长.<br>&nbsp"
         },
         {
             unlock: {upgrade: ["exploration"]},
-            message: "You hear faint songs and cries in the distance.<br>&nbsp"
+            message: "从遥远的地方，传来一阵阵微弱的歌声和哭泣.<br>&nbsp"
         },
         {
             unlock: {upgrade: ["automation"]},
-            message: "Machines to do things for you.<br>Machines to do things faster than you or any shark."
+            message: "机器正在为你工作.<br>机器比你和其他任何鲨鱼生产得都快."
         },
         {
             unlock: {upgrade: ["farExploration"]},
-            message: "This place is not your home. You remember a crystal blue ocean.<br>The chasms beckon."
+            message: "这个地方不是你的家. 你记忆中的是如水晶般湛蓝的海洋.<br>来自深渊的召唤."
         },
         {
             unlock: {upgrade: ["gateDiscovery"]},
-            message: "The gate beckons. The secret must be unlocked.<br>&nbsp"
+            message: "这奇怪的门进入了我们的视线。一定要解开它的秘密。<br>&nbsp"
         },
         // LATER RUNS
         // INITIAL WORLD STATUSES
         {
             unlock: {world: "chaotic"},
-            message: "Overwhelming reinforcements. Overwhelming everything. So hard to focus.<br>&nbsp"
+            message: "压倒性的增援部队。压倒性的一切。所以很难集中注意。<br>&nbsp"
         },
         {
             unlock: {world: "haven"},
-            message: "The oceans are rich with life. But it's still not home.<br>&nbsp"
+            message: "海洋中有丰富的生物，但是它不是我的家乡。<br>&nbsp"
         },
         {
             unlock: {world: "marine"},
-            message: "The fish never run dry here. This place feels so familiar.<br>&nbsp"
+            message: "这里的鱼永远不会抓完。这个地方让我感到很亲切。<br>&nbsp"
         },
         {
             unlock: {world: "tempestuous"},
-            message: "The storm never ends, and many are lost to its violent throes.<br>&nbsp"
+            message: "风暴不会停止, 许多鱼都迷失在剧烈的痛苦当中.<br>&nbsp"
         },
         {
             unlock: {world: "violent"},
-            message: "Bursts of plenty from the scorching vents, but so hot.<br>No place for the young."
+            message: "海底灼热的裂口中喷出大量高温的水。<br>年幼的生命无处容身。"
         },
         {
             unlock: {world: "abandoned"},
-            message: "The tar clogs the gills of everyone here.<br>This dying world drags everyone down with it."
+            message: "海中的焦油堵塞了所有鱼的腮。<br>这个即将毁灭的世界想把所有生命都拉入地狱。"
         },
         {
             unlock: {world: "shrouded"},
-            message: "The crystals are easier to find, but the darkness makes it hard to find anything else.<br>&nbsp"
+            message: "更容易能找到水晶，但是黑暗使得其他资源更难被收集。<br>&nbsp"
         },
         {
             unlock: {world: "frigid"},
-            message: "So cold. The food supplies freeze quickly here. Too hard to chew.<br>&nbsp"
+            message: "如此寒冷. 储备的食物很快就被冻结了.非常难以咀嚼.<br>&nbsp"
         },
         // BANKED ESSENCE
         {
             unlock: {resource: {essence: 10}},
-            message: "The other sharks obey and respect you, but they seem to fear you.<br>It is not clear if you are truly a shark anymore, or something... else."
+            message: "其他鲨鱼服从你，尊敬你，但是它们似乎也惧怕着你。<br>现在不清楚你真的是一只鲨鱼，还是别的……什么东西。"
         },
         // NEW ANIMALS
         {
             unlock: {resource: {shrimp: 50}},
-            message: "The shrimps are tiny, but hard-working.<br>They live for their sponge hives."
+            message: "这些虾很小，但很勤劳。<br>它们靠海绵来生存。（它们生存是为了海绵）"
         },
         {
             unlock: {resource: {lobster: 20}},
-            message: "The lobsters work, but seem carefree.<br>They worry about nothing."
+            message: "龙虾在工作，他们看起来无忧无虑。<br>什么都不担心。"
         },
         {
             unlock: {resource: {eel: 10}},
-            message: "The eels chatter among their hiding places.<br>They like the sharks."
+            message: "鳗鱼在他们的藏身之处低声交流。<br>他们喜欢鲨鱼。"
         },
         {
             unlock: {resource: {dolphin: 5}},
-            message: "The dolphin pods that work with us speak of an star-spanning empire of their kind.<br>They ask where our empire is. And they smile."
+            message: "和我们一起工作的海豚善意地向我们讲述了它们跨越行星的帝国<br>他们微笑着询问我们的帝国在哪里。"
         },
         {
             unlock: {resource: {octopus: 8}},
-            message: "The octopuses speak of production and correct action. They speak of unity through efficiency.<br>They regard us with cold, neutral eyes."
+            message: "章鱼总是在谈论生产和正确的行动。他们说通过团结来达到高效。<br>它们用一种冷漠而中立的眼光来看我们。"
         },
         {
             unlock: {resource: {whale: 1}},
-            message: "The whales speak rarely to us, working in silence as they sing to the ocean.<br>What do they sing for?"
+            message: "鲸鱼很少和我们说话。它只是默默地工作，有时在海中唱歌。<br>它们为什么要唱歌?"
         },
         {
             unlock: {resource: {chimaera: 5}},
-            message: "The chimaeras are ancient kin of the shark kind, reunited through wild coincidence.<br>What peerless wonders have they found in the dark?"
+            message: "银鲛在古代是鲨鱼的近亲，如今因为这巧合重聚。<br>在黑暗中它们发现了怎样无与伦比的奇迹?"
         },
         // UNIQUE STATUSES
         {
             unlock: {resource: {chorus: 1}},
-            message: "The whale song fills you with the same feeling as the gates. But so much smaller.<br>&nbsp"
+            message: "鲸鱼的歌让你有和在世界大门中同样的感觉。只是感觉更弱一些。<br>&nbsp"
         },
         // DANGER STATUSES
         {
             unlock: {world: "abandoned", resource: {tar: 20}},
-            message: "The tar is killing everything!<br>Maybe a machine can save us?"
+            message: "焦油让所有生物都在死去!<br>或许机器能够拯救我们?"
         },
         {
             unlock: {world: "abandoned", resource: {tar: 200}},
-            message: "Only machines will remain. All is lost.<br><span class='smallDesc'>All is lost.</span>"
+            message: "只有机械才能保留下来. 其他的终会失去.<br><span class='smallDesc'>都失去了.</span>"
         },
         {
             unlock: {world: "frigid", resource: {ice: 50}},
-            message: "Something has to be done before the ice destroys us all!<br>Maybe a machine can save us?"
+            message: "在冰雪把我们都杀死前必须要做点什么!<br>或许机器能拯救我们?"
         },
         {
             unlock: {world: "frigid", resource: {ice: 200}},
-            message: "So cold. So hungry.<br><span class='smallDesc'>So hopeless.</span>"
+            message: "太冷了. 好饿.<br><span class='smallDesc'>如此绝望.</span>"
         }
     ],
 
@@ -338,7 +338,7 @@ SharkGame.Home = {
                     sceneDiv = $('<div>').attr("id", "tabSceneImage");
                 }
             }
-            var message = "你是一条生活在 " + wi.shortDesc + " 海的鲨鱼。";
+            var message = "你是一条生活在 " + wi.shortDesc + " 海洋的鲨鱼。";
             message += "<br><span id='extraMessage' class='medDesc'>&nbsp<br>&nbsp</span>";
             tabMessage.html(message).prepend(sceneDiv);
 
@@ -698,7 +698,7 @@ function cnname(name){
     }else if(temp=="Basic"){
         cnname="基本"
     }else if(temp=="Frenzy"){
-        cnname="疯狂"
+        cnname="招募"
     }else if(temp=="Jobs"){
         cnname="工作"
     }else if(temp=="Producers"){
@@ -715,7 +715,7 @@ function cnname(name){
         //鱼名称
         cnname="招募鲨鱼"
     }else if(temp=="Hire ray"){
-        cnname="雇佣射线"
+        cnname="雇佣鳐鱼"
     }else if(temp=="Acquire crab"){
         cnname="捕蟹"
     }else if(temp=="Train science shark"){
@@ -723,9 +723,9 @@ function cnname(name){
     }else if(temp=="Train nurse shark"){
         cnname="训练护士鲨"
     }else if(temp=="Equip laser ray"){
-        cnname="装备激光射线"
+        cnname="训练激光鳐鱼"
     }else if(temp=="Instruct a ray maker"){
-        cnname="指导射线制造商"
+        cnname="任命鳐鱼制造者"
     }else if(temp==""){
         cnname=""
     }else if(temp==""){
