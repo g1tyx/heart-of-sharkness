@@ -54,18 +54,18 @@ $.extend(SharkGame, {
     "<span class='smallDesc'>Dylan is also graciously hosting this game.</span></p>",
 
 
-    ending: "<p>Congratulations! You did it.<br/>You saved the sharks!</p>" +
+    ending: "<p>恭喜！ 你做到了。<br/>你救了鲨鱼！</p>" +
     "<p>The gate leads away from this strange ocean...</p>" +
     "<p>Back home to the oceans you came from!</p>" +
     "<h3>Or are they?</h3>",
 
-    help: "<p>This game is a game about discovery, resources, and does not demand your full attention. " +
-    "You are free to pay as much attention to the game as you want. " +
-    "It will happily run in the background, and works even while closed.</p>" +
-    "<p>To begin, you should catch fish. Once you have some fish, more actions will become available. " +
-    "If you have no idea what these actions do, click the \"隐藏/显示描述\" button for more information.</p>" +
-    "<p>If you are ever stuck, try actions you haven't yet tried. " +
-    "Remember, though, that sometimes patience is the only way forward. Patience and ever escalating numbers.</p>",
+    help: "<p>这个游戏是关于发现，资源的游戏，并不需要你全神贯注。 " +
+    "您可以随心所欲地关注游戏。" +
+    "它会愉快地在后台运行，即使在关闭时也可以工作。</p>" +
+    "<p>首先，你应该抓鱼。 一旦你吃了一些鱼，就会有更多的动作可用。 " +
+    "如果您不知道这些操作的作用，请单击 \"隐藏/显示描述\" 按钮了解更多信息。</p>" +
+    "<p>如果您遇到困难，请尝试尚未尝试的操作。 " +
+    "但请记住，有时耐心是唯一的前进方向。 耐心和不断升级的数字。</p>",
 
     donate: "<p>You can <a href='http://www.sharktrust.org/en/donate' target='_blank'>donate to help save sharks and mantas</a>!</p>" +
     "<p>Seems only fitting, given this game was made for a charity stream!</p>" +

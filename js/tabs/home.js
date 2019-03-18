@@ -247,12 +247,12 @@ SharkGame.Home = {
             if(categoryDiscovered) {
                 var tabListItem = $('<li>');
                 if(onThisTab) {
-                    tabListItem.html(cnname(v.name));
+                    tabListItem.html(cnItem(v.name));
                 } else {
                     tabListItem.append($('<a>')
                             .attr("id", "buttonTab-" + k)
                             .attr("href", "javascript:;")
-                            .html(cnname(v.name))
+                            .html(cnItem(v.name))
                             .click(function() {
                                 var tab = ($(this).attr("id")).split("-")[1];
                                 SharkGame.Home.changeButtonTab(tab);
@@ -432,7 +432,7 @@ SharkGame.Home = {
             enableButton = r.checkResources(actionCost);
         }
 
-        var label = cnname(actionData.name);
+        var label = cnItem(actionData.name);
         if(!$.isEmptyObject(actionCost) && amount > 1) {
             label += " (" + SharkGame.Main.beautify(amount) + ")";
         }
@@ -690,61 +690,3 @@ SharkGame.Home = {
     }
 };
 
-function cnname(name){
-     var cnname="";
-    var temp=name;
-    if(temp=="All"){
-        cnname="全部"
-    }else if(temp=="Basic"){
-        cnname="基本"
-    }else if(temp=="Frenzy"){
-        cnname="招募"
-    }else if(temp=="Jobs"){
-        cnname="工作"
-    }else if(temp=="Producers"){
-        cnname="生产者"
-    }else if(temp=="Processing"){
-        cnname="加工"
-    }else if(temp=="Shark Machines"){
-        cnname="鲨鱼机器"
-    }else if(temp=="Other Machines"){
-        cnname="其它机器"
-    }else if(temp=="Unique"){
-        cnname="特殊"
-    }else if(temp=="Recruit shark"){
-        //鱼名称
-        cnname="招募鲨鱼"
-    }else if(temp=="Hire ray"){
-        cnname="雇佣鳐鱼"
-    }else if(temp=="Acquire crab"){
-        cnname="捕蟹"
-    }else if(temp=="Train science shark"){
-        cnname="训练科学鲨鱼"
-    }else if(temp=="Train nurse shark"){
-        cnname="训练护士鲨"
-    }else if(temp=="Equip laser ray"){
-        cnname="训练激光鳐鱼"
-    }else if(temp=="Instruct a ray maker"){
-        cnname="任命鳐鱼制造者"
-    }else if(temp==""){
-        cnname=""
-    }else if(temp==""){
-        cnname=""
-    }else if(temp==""){
-        cnname=""
-    }else if(temp==""){
-        cnname=""
-    }else if(temp==""){
-        cnname=""
-    }else if(temp==""){
-        cnname=""
-    }else if(temp=="science"){
-        //资源名称
-        cnname="科学"
-    }else if(temp==""){
-        cnname=""
-    }else{
-        return name;
-    }
-    return cnname;
-}
